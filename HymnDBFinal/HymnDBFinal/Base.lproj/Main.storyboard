@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HymnDBFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfg-UU-6Wg">
+                                <rect key="frame" x="16" y="333" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Browse all resources">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="843-ys-NIf" kind="show" id="g7X-dQ-m5l"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CCS Resource Connector" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="htr-yX-NvR">
+                                <rect key="frame" x="16" y="91" width="343" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.065431795060000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19x-B2-LB0">
+                                <rect key="frame" x="16" y="423" width="343" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.065431795060000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Help me find resources">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5US-tJ-Lm4">
+                                <rect key="frame" x="-6" y="20" width="386" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9998212456703186" green="0.63837134838104248" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="78m-c6-Y2l">
+                                <rect key="frame" x="272" y="25" width="103" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yTO-Z8-ok1"/>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="Rfg-UU-6Wg" id="soA-B4-khO"/>
+                        <outlet property="myButton2" destination="19x-B2-LB0" id="IF8-5B-qRL"/>
+                        <outlet property="sing" destination="5US-tJ-Lm4" id="26y-QW-q8t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="73.313343328335833"/>
+        </scene>
+        <!--Resource View Controller-->
+        <scene sceneID="YkT-p9-4EM">
+            <objects>
+                <viewController id="843-ys-NIf" customClass="ResourceViewController" customModule="HymnDBFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="se4-K5-lNm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocn-e5-zSJ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="2830"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcX-9n-haQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2800"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gja-4X-5iP">
+                                                <rect key="frame" x="-6" y="0.0" width="386" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99982124569999997" green="0.63837134839999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="yhb-3X-hTl">
+                                                <rect key="frame" x="272" y="5" width="103" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Browsing all resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEM-GH-x8Q">
+                                                <rect key="frame" x="8" y="60" width="359" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOw-IM-OOK">
+                                                <rect key="frame" x="8" y="110" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Books" backgroundImage="books-education-school-literature-48126">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vd-xl-mZy">
+                                                <rect key="frame" x="8" y="300" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Hymnals/Songbooks" backgroundImage="praise-to-god-hymnal-church-catholic-161287">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9a-no-pMM">
+                                                <rect key="frame" x="8" y="490" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Thesis/Dissertation" backgroundImage="open-book-library-education-read-159621">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlo-jO-lL0">
+                                                <rect key="frame" x="8" y="680" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Articles" backgroundImage="pexels-photo-518543">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdg-J3-hcG">
+                                                <rect key="frame" x="8" y="870" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Blog" backgroundImage="pexels-photo-267569">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaA-cE-Ig7">
+                                                <rect key="frame" x="8" y="1060" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Forum" backgroundImage="startup-photos">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLP-1D-PUm">
+                                                <rect key="frame" x="8" y="1250" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Newsletter/E-News" backgroundImage="pexels-photo-261706">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuJ-nX-TnH">
+                                                <rect key="frame" x="8" y="1630" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Podcast" backgroundImage="pexels-photo-635005">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRQ-Zv-9yv">
+                                                <rect key="frame" x="8" y="2010" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Congregations" backgroundImage="pexels-photo-133699">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7X-rp-R1C">
+                                                <rect key="frame" x="8" y="1440" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Audio " backgroundImage="microphone-audio-computer-sound-recording-55800">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bo1-mQ-4Zo">
+                                                <rect key="frame" x="8" y="1820" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Video/Visuals" backgroundImage="pexels-photo-66134">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Np-8l-dvN">
+                                                <rect key="frame" x="8" y="2200" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Organizations" backgroundImage="pexels-photo-296883">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEF-QA-74N">
+                                                <rect key="frame" x="8" y="2390" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Events" backgroundImage="people-eiffel-tower-lights-night">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfS-y6-utG">
+                                                <rect key="frame" x="8" y="2581" width="359" height="165"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
+                                                <state key="normal" title="Persons" backgroundImage="pexels-photo-296881">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1250" id="4A9-Ou-ssN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.065431795060000006" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fcX-9n-haQ" secondAttribute="bottom" id="3to-x2-YVh"/>
+                                    <constraint firstItem="fcX-9n-haQ" firstAttribute="top" secondItem="ocn-e5-zSJ" secondAttribute="top" id="5V8-0r-HcJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="fcX-9n-haQ" secondAttribute="trailing" id="KGq-JC-25k"/>
+                                    <constraint firstItem="fcX-9n-haQ" firstAttribute="leading" secondItem="ocn-e5-zSJ" secondAttribute="leading" id="pbQ-7K-zsz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ocn-e5-zSJ" firstAttribute="trailing" secondItem="QC6-Ua-llr" secondAttribute="trailing" id="4qg-TC-Mei"/>
+                            <constraint firstItem="ocn-e5-zSJ" firstAttribute="top" secondItem="QC6-Ua-llr" secondAttribute="top" id="Ofa-IP-rSn"/>
+                            <constraint firstItem="ocn-e5-zSJ" firstAttribute="bottom" secondItem="QC6-Ua-llr" secondAttribute="bottom" id="XJS-VJ-0oX"/>
+                            <constraint firstItem="fcX-9n-haQ" firstAttribute="width" secondItem="se4-K5-lNm" secondAttribute="width" id="Z9o-4b-osI"/>
+                            <constraint firstItem="ocn-e5-zSJ" firstAttribute="leading" secondItem="QC6-Ua-llr" secondAttribute="leading" id="mbw-6L-i4o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QC6-Ua-llr"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="2800"/>
+                    <connections>
+                        <outlet property="label1" destination="gja-4X-5iP" id="nla-38-6eE"/>
+                        <outlet property="tile1" destination="sOw-IM-OOK" id="Shf-Yi-d5Y"/>
+                        <outlet property="tile2" destination="4vd-xl-mZy" id="IWy-dI-9bJ"/>
+                        <outlet property="tile3" destination="v9a-no-pMM" id="lSW-FS-e9J"/>
+                        <outlet property="tile4" destination="dlo-jO-lL0" id="sqz-Eo-61Q"/>
+                        <outlet property="tile5" destination="pdg-J3-hcG" id="jOH-iF-0UO"/>
+                        <outlet property="tile6" destination="FaA-cE-Ig7" id="yjc-lG-KhW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGK-fq-Mef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="69.265367316341838"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="291" height="98"/>
+        <image name="books-education-school-literature-48126" width="5760" height="3840"/>
+        <image name="microphone-audio-computer-sound-recording-55800" width="4288" height="2848"/>
+        <image name="open-book-library-education-read-159621" width="4592" height="3448"/>
+        <image name="people-eiffel-tower-lights-night" width="7360" height="4912"/>
+        <image name="pexels-photo-133699" width="4913" height="3276"/>
+        <image name="pexels-photo-261706" width="4900" height="2613"/>
+        <image name="pexels-photo-267569" width="5760" height="3840"/>
+        <image name="pexels-photo-296881" width="3548" height="1956"/>
+        <image name="pexels-photo-296883" width="7360" height="4912"/>
+        <image name="pexels-photo-518543" width="2250" height="1500"/>
+        <image name="pexels-photo-635005" width="5184" height="3456"/>
+        <image name="pexels-photo-66134" width="3968" height="2645"/>
+        <image name="praise-to-god-hymnal-church-catholic-161287" width="5472" height="3648"/>
+        <image name="startup-photos" width="3000" height="2092"/>
+    </resources>
+</document>

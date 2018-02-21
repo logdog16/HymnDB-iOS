@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF100203CF37E000B9C30 /* AppDelegate.swift */; };
+		164EF103203CF37E000B9C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF102203CF37E000B9C30 /* ViewController.swift */; };
+		164EF106203CF37E000B9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164EF104203CF37E000B9C30 /* Main.storyboard */; };
+		164EF108203CF37E000B9C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164EF107203CF37E000B9C30 /* Assets.xcassets */; };
+		164EF10B203CF37E000B9C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164EF109203CF37E000B9C30 /* LaunchScreen.storyboard */; };
+		164EF115203D08EB000B9C30 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF114203D08EB000B9C30 /* ResourceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		164EF100203CF37E000B9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		164EF102203CF37E000B9C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		164EF105203CF37E000B9C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164EF107203CF37E000B9C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		164EF10A203CF37E000B9C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		164EF10C203CF37E000B9C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164EF114203D08EB000B9C30 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourceViewController.swift; path = ../ResourceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164EF0FA203CF37E000B9C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		164EF0F4203CF37E000B9C30 = {
+			isa = PBXGroup;
+			children = (
+				164EF0FF203CF37E000B9C30 /* HymnDBFinal */,
+				164EF0FE203CF37E000B9C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		164EF0FE203CF37E000B9C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		164EF0FF203CF37E000B9C30 /* HymnDBFinal */ = {
+			isa = PBXGroup;
+			children = (
+				164EF100203CF37E000B9C30 /* AppDelegate.swift */,
+				164EF102203CF37E000B9C30 /* ViewController.swift */,
+				164EF114203D08EB000B9C30 /* ResourceViewController.swift */,
+				164EF104203CF37E000B9C30 /* Main.storyboard */,
+				164EF107203CF37E000B9C30 /* Assets.xcassets */,
+				164EF109203CF37E000B9C30 /* LaunchScreen.storyboard */,
+				164EF10C203CF37E000B9C30 /* Info.plist */,
+			);
+			path = HymnDBFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164EF0FC203CF37E000B9C30 /* HymnDBFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164EF10F203CF37E000B9C30 /* Build configuration list for PBXNativeTarget "HymnDBFinal" */;
+			buildPhases = (
+				164EF0F9203CF37E000B9C30 /* Sources */,
+				164EF0FA203CF37E000B9C30 /* Frameworks */,
+				164EF0FB203CF37E000B9C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HymnDBFinal;
+			productName = HymnDBFinal;
+			productReference = 164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		164EF0F5203CF37E000B9C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Adrien Ibarra";
+				TargetAttributes = {
+					164EF0FC203CF37E000B9C30 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 164EF0F8203CF37E000B9C30 /* Build configuration list for PBXProject "HymnDBFinal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 164EF0F4203CF37E000B9C30;
+			productRefGroup = 164EF0FE203CF37E000B9C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164EF0FC203CF37E000B9C30 /* HymnDBFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164EF0FB203CF37E000B9C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EF10B203CF37E000B9C30 /* LaunchScreen.storyboard in Resources */,
+				164EF108203CF37E000B9C30 /* Assets.xcassets in Resources */,
+				164EF106203CF37E000B9C30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164EF0F9203CF37E000B9C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164EF103203CF37E000B9C30 /* ViewController.swift in Sources */,
+				164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */,
+				164EF115203D08EB000B9C30 /* ResourceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		164EF104203CF37E000B9C30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164EF105203CF37E000B9C30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		164EF109203CF37E000B9C30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164EF10A203CF37E000B9C30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		164EF10D203CF37E000B9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		164EF10E203CF37E000B9C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		164EF110203CF37E000B9C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HymnDBFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		164EF111203CF37E000B9C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HymnDBFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164EF0F8203CF37E000B9C30 /* Build configuration list for PBXProject "HymnDBFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164EF10D203CF37E000B9C30 /* Debug */,
+				164EF10E203CF37E000B9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164EF10F203CF37E000B9C30 /* Build configuration list for PBXNativeTarget "HymnDBFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164EF110203CF37E000B9C30 /* Debug */,
+				164EF111203CF37E000B9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 164EF0F5203CF37E000B9C30 /* Project object */;
+}
