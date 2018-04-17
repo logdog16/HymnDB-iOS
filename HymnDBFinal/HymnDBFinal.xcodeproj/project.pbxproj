@@ -36,6 +36,7 @@
 		16E02BD02055F76D00122249 /* Choices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BCF2055F76D00122249 /* Choices.storyboard */; };
 		16E02BD62055FCFE00122249 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BD52055FCFE00122249 /* Questions.storyboard */; };
 		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
+		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +70,10 @@
 		16971426206A9B730056BDA0 /* Question7.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question7.storyboard; sourceTree = "<group>"; };
 		16E02BCF2055F76D00122249 /* Choices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Choices.storyboard; sourceTree = "<group>"; };
 		16E02BD52055FCFE00122249 /* Questions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
+		436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.release.xcconfig"; sourceTree = "<group>"; };
+		58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
+		D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,17 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BA099C9D09DC9405E8DD36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		164EF0F4203CF37E000B9C30 = {
 			isa = PBXGroup;
 			children = (
 				164EF0FF203CF37E000B9C30 /* HymnDBFinal */,
 				164EF0FE203CF37E000B9C30 /* Products */,
+				71353569E494B602931D2783 /* Pods */,
+				13BA099C9D09DC9405E8DD36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +129,15 @@
 				16E02BCF2055F76D00122249 /* Choices.storyboard */,
 			);
 			path = HymnDBFinal;
+			sourceTree = "<group>";
+		};
+		71353569E494B602931D2783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */,
+				436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A2F9062A207D170B00AA9695 /* Quiz */ = {
@@ -151,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 164EF10F203CF37E000B9C30 /* Build configuration list for PBXNativeTarget "HymnDBFinal" */;
 			buildPhases = (
+				A5C6611D7FAEF27285E3778C /* [CP] Check Pods Manifest.lock */,
 				164EF0F9203CF37E000B9C30 /* Sources */,
 				164EF0FA203CF37E000B9C30 /* Frameworks */,
 				164EF0FB203CF37E000B9C30 /* Resources */,
+				BF5E2A95ABFA5744C0AE9746 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +244,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5C6611D7FAEF27285E3778C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HymnDBFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5E2A95ABFA5744C0AE9746 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		164EF0F9203CF37E000B9C30 /* Sources */ = {
@@ -376,6 +455,7 @@
 		};
 		164EF110203CF37E000B9C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -393,6 +473,7 @@
 		};
 		164EF111203CF37E000B9C30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
