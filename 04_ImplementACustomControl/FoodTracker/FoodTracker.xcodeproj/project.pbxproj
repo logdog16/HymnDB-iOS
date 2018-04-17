@@ -149,6 +149,10 @@
 				TargetAttributes = {
 					936B4B7D1DB54E8F0090E3EE = {
 						CreatedOnToolsVersion = 8.0;
+<<<<<<< HEAD
+=======
+						DevelopmentTeam = QR6LPYF4Q4;
+>>>>>>> origin/ES-dev
 						ProvisioningStyle = Automatic;
 					};
 					936B4B911DB54E8F0090E3EE = {
@@ -345,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				DEVELOPMENT_TEAM = QR6LPYF4Q4;
+>>>>>>> origin/ES-dev
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
@@ -357,6 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				DEVELOPMENT_TEAM = QR6LPYF4Q4;
+>>>>>>> origin/ES-dev
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
