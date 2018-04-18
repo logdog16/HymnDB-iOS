@@ -5,10 +5,33 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'HymnDBFinal' do
   pod 'Alamofire', '~> 4.7'
+  pod 'Material', '~> 2.0'
   pod 'MaterialComponents'
   pod 'PDFReader'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'AlamofireImage', '~> 3.3'
   use_frameworks!
 
   # Pods for HymnDBFinal
+
+# Pods for HymnDBFinal
+
+  target 'HymnDBFinalTests' do
+    inherit! :search_paths
+pod 'Alamofire', '~> 4.7'
+pod 'Material', '~> 2.0'
+pod 'MaterialComponents'
+pod 'AlamofireImage', '~> 3.3'
+  # Pods for testing
+end
+
+  target 'HymnDBFinalUITests' do
+    inherit! :search_paths
+pod 'Alamofire', '~> 4.7'
+pod 'Material', '~> 2.0'
+pod 'MaterialComponents'
+pod 'AlamofireImage', '~> 3.3'
+  # Pods for testing
+  end
 
 end

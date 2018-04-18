@@ -35,11 +35,38 @@
 		16971427206A9B730056BDA0 /* Question7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16971426206A9B730056BDA0 /* Question7.storyboard */; };
 		16E02BD02055F76D00122249 /* Choices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BCF2055F76D00122249 /* Choices.storyboard */; };
 		16E02BD62055FCFE00122249 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BD52055FCFE00122249 /* Questions.storyboard */; };
-		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
+		2D562C407A1D5B39782E896B /* Pods_HymnDBFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FF6C2FF659E66D4333F21B /* Pods_HymnDBFinalTests.framework */; };
+		8D4904AB943ACC66117672CB /* Pods_HymnDBFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FA81114E80E90D8B77752D /* Pods_HymnDBFinalUITests.framework */; };
+		A2BB26FB2086B6CC00D83687 /* API Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB26FA2086B6CC00D83687 /* API Helper.swift */; };
+		A2CD38CB2086C2C400662CD9 /* ResourceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD38CA2086C2C400662CD9 /* ResourceListTableViewController.swift */; };
+		A2CD38CD2086C33500662CD9 /* ResourceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CD38CC2086C33500662CD9 /* ResourceList.storyboard */; };
+		A2CD38D02086C37800662CD9 /* ResourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD38CF2086C37800662CD9 /* ResourceListTableViewCell.swift */; };
+		A2D469A32086B4110062EEAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D469A22086B4110062EEAB /* XCTest.framework */; };
+		A2D469AB2086B48B0062EEAB /* HymnDBFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D469AA2086B48B0062EEAB /* HymnDBFinalTests.swift */; };
+		A2D469B92086B4A30062EEAB /* HymnDBFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D469B82086B4A30062EEAB /* HymnDBFinalUITests.swift */; };
+		A2D469C12086B5DC0062EEAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D469C02086B5DC0062EEAB /* Extensions.swift */; };
 		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A2D469AD2086B48B0062EEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164EF0F5203CF37E000B9C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164EF0FC203CF37E000B9C30;
+			remoteInfo = HymnDBFinal;
+		};
+		A2D469BB2086B4A30062EEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164EF0F5203CF37E000B9C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164EF0FC203CF37E000B9C30;
+			remoteInfo = HymnDBFinal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		156876C20FC79C7ABB443A85 /* Pods-HymnDBFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164EF100203CF37E000B9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		164EF102203CF37E000B9C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +99,23 @@
 		16E02BD52055FCFE00122249 /* Questions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
 		436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.release.xcconfig"; sourceTree = "<group>"; };
 		58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
+		64FA81114E80E90D8B77752D /* Pods_HymnDBFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8527AD44C2BD755344840E1D /* Pods-HymnDBFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B26B2639785CFD5B71B1C3C /* Pods-HymnDBFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2BB26FA2086B6CC00D83687 /* API Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Helper.swift"; sourceTree = "<group>"; };
+		A2CD38CA2086C2C400662CD9 /* ResourceListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListTableViewController.swift; sourceTree = "<group>"; };
+		A2CD38CC2086C33500662CD9 /* ResourceList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourceList.storyboard; sourceTree = "<group>"; };
+		A2CD38CF2086C37800662CD9 /* ResourceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListTableViewCell.swift; sourceTree = "<group>"; };
+		A2D469A22086B4110062EEAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2D469A82086B48B0062EEAB /* HymnDBFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnDBFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D469AA2086B48B0062EEAB /* HymnDBFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnDBFinalTests.swift; sourceTree = "<group>"; };
+		A2D469AC2086B48B0062EEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D469B62086B4A30062EEAB /* HymnDBFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnDBFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D469B82086B4A30062EEAB /* HymnDBFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnDBFinalUITests.swift; sourceTree = "<group>"; };
+		A2D469BA2086B4A30062EEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D469C02086B5DC0062EEAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C0D260A8687D5F4358D3D7D4 /* Pods-HymnDBFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4FF6C2FF659E66D4333F21B /* Pods_HymnDBFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +124,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D469A32086B4110062EEAB /* XCTest.framework in Frameworks */,
 				AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D469A52086B48B0062EEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D562C407A1D5B39782E896B /* Pods_HymnDBFinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D469B32086B4A30062EEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4904AB943ACC66117672CB /* Pods_HymnDBFinalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +151,10 @@
 		13BA099C9D09DC9405E8DD36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2D469A22086B4110062EEAB /* XCTest.framework */,
 				58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */,
+				C4FF6C2FF659E66D4333F21B /* Pods_HymnDBFinalTests.framework */,
+				64FA81114E80E90D8B77752D /* Pods_HymnDBFinalUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				164EF0FF203CF37E000B9C30 /* HymnDBFinal */,
+				A2D469A92086B48B0062EEAB /* HymnDBFinalTests */,
+				A2D469B72086B4A30062EEAB /* HymnDBFinalUITests */,
 				164EF0FE203CF37E000B9C30 /* Products */,
 				71353569E494B602931D2783 /* Pods */,
 				13BA099C9D09DC9405E8DD36 /* Frameworks */,
@@ -110,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */,
+				A2D469A82086B48B0062EEAB /* HymnDBFinalTests.xctest */,
+				A2D469B62086B4A30062EEAB /* HymnDBFinalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +184,10 @@
 		164EF0FF203CF37E000B9C30 /* HymnDBFinal */ = {
 			isa = PBXGroup;
 			children = (
-				A2F9062A207D170B00AA9695 /* Quiz */,
 				164EF100203CF37E000B9C30 /* AppDelegate.swift */,
-				A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */,
+				A2F9062A207D170B00AA9695 /* Quiz */,
+				A2BB26FA2086B6CC00D83687 /* API Helper.swift */,
+				A2CD38CE2086C33E00662CD9 /* ResourceListTableViewController */,
 				164EF102203CF37E000B9C30 /* ViewController.swift */,
 				164EF114203D08EB000B9C30 /* ResourceViewController.swift */,
 				164EF104203CF37E000B9C30 /* Main.storyboard */,
@@ -127,6 +195,7 @@
 				164EF109203CF37E000B9C30 /* LaunchScreen.storyboard */,
 				164EF10C203CF37E000B9C30 /* Info.plist */,
 				16E02BCF2055F76D00122249 /* Choices.storyboard */,
+				A2D469C22086B6250062EEAB /* Resources */,
 			);
 			path = HymnDBFinal;
 			sourceTree = "<group>";
@@ -136,8 +205,48 @@
 			children = (
 				D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */,
 				436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */,
+				8527AD44C2BD755344840E1D /* Pods-HymnDBFinalTests.debug.xcconfig */,
+				9B26B2639785CFD5B71B1C3C /* Pods-HymnDBFinalTests.release.xcconfig */,
+				156876C20FC79C7ABB443A85 /* Pods-HymnDBFinalUITests.debug.xcconfig */,
+				C0D260A8687D5F4358D3D7D4 /* Pods-HymnDBFinalUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2CD38CE2086C33E00662CD9 /* ResourceListTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD38CA2086C2C400662CD9 /* ResourceListTableViewController.swift */,
+				A2CD38CC2086C33500662CD9 /* ResourceList.storyboard */,
+				A2CD38CF2086C37800662CD9 /* ResourceListTableViewCell.swift */,
+			);
+			name = ResourceListTableViewController;
+			sourceTree = "<group>";
+		};
+		A2D469A92086B48B0062EEAB /* HymnDBFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D469AA2086B48B0062EEAB /* HymnDBFinalTests.swift */,
+				A2D469AC2086B48B0062EEAB /* Info.plist */,
+			);
+			path = HymnDBFinalTests;
+			sourceTree = "<group>";
+		};
+		A2D469B72086B4A30062EEAB /* HymnDBFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D469B82086B4A30062EEAB /* HymnDBFinalUITests.swift */,
+				A2D469BA2086B4A30062EEAB /* Info.plist */,
+			);
+			path = HymnDBFinalUITests;
+			sourceTree = "<group>";
+		};
+		A2D469C22086B6250062EEAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2D469C02086B5DC0062EEAB /* Extensions.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A2F9062A207D170B00AA9695 /* Quiz */ = {
@@ -190,19 +299,69 @@
 			productReference = 164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A2D469A72086B48B0062EEAB /* HymnDBFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D469AF2086B48B0062EEAB /* Build configuration list for PBXNativeTarget "HymnDBFinalTests" */;
+			buildPhases = (
+				2D6584E919F9C56528912FA5 /* [CP] Check Pods Manifest.lock */,
+				A2D469A42086B48B0062EEAB /* Sources */,
+				A2D469A52086B48B0062EEAB /* Frameworks */,
+				A2D469A62086B48B0062EEAB /* Resources */,
+				47DDE72AA6D7FBF5AA25AF0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D469AE2086B48B0062EEAB /* PBXTargetDependency */,
+			);
+			name = HymnDBFinalTests;
+			productName = HymnDBFinalTests;
+			productReference = A2D469A82086B48B0062EEAB /* HymnDBFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2D469B52086B4A30062EEAB /* HymnDBFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D469BD2086B4A30062EEAB /* Build configuration list for PBXNativeTarget "HymnDBFinalUITests" */;
+			buildPhases = (
+				29F66099E97B8A1F6143E85C /* [CP] Check Pods Manifest.lock */,
+				A2D469B22086B4A30062EEAB /* Sources */,
+				A2D469B32086B4A30062EEAB /* Frameworks */,
+				A2D469B42086B4A30062EEAB /* Resources */,
+				7D02A51C7D00F0B3C2C1E826 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D469BC2086B4A30062EEAB /* PBXTargetDependency */,
+			);
+			name = HymnDBFinalUITests;
+			productName = HymnDBFinalUITests;
+			productReference = A2D469B62086B4A30062EEAB /* HymnDBFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		164EF0F5203CF37E000B9C30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Adrien Ibarra";
 				TargetAttributes = {
 					164EF0FC203CF37E000B9C30 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Manual;
+					};
+					A2D469A72086B48B0062EEAB = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 164EF0FC203CF37E000B9C30;
+					};
+					A2D469B52086B4A30062EEAB = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 164EF0FC203CF37E000B9C30;
 					};
 				};
 			};
@@ -220,6 +379,8 @@
 			projectRoot = "";
 			targets = (
 				164EF0FC203CF37E000B9C30 /* HymnDBFinal */,
+				A2D469A72086B48B0062EEAB /* HymnDBFinalTests */,
+				A2D469B52086B4A30062EEAB /* HymnDBFinalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +396,7 @@
 				16E02BD62055FCFE00122249 /* Questions.storyboard in Resources */,
 				16971405206A92510056BDA0 /* Question2.storyboard in Resources */,
 				1697140F206A95D20056BDA0 /* Question3.storyboard in Resources */,
+				A2CD38CD2086C33500662CD9 /* ResourceList.storyboard in Resources */,
 				16971423206A9B610056BDA0 /* Question5.storyboard in Resources */,
 				16971415206A97460056BDA0 /* Question4.storyboard in Resources */,
 				16971425206A9B6A0056BDA0 /* Question6.storyboard in Resources */,
@@ -243,9 +405,131 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2D469A62086B48B0062EEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D469B42086B4A30062EEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		29F66099E97B8A1F6143E85C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HymnDBFinalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6584E919F9C56528912FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HymnDBFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47DDE72AA6D7FBF5AA25AF0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D02A51C7D00F0B3C2C1E826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A5C6611D7FAEF27285E3778C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,24 +556,32 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
 				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -308,23 +600,55 @@
 				1697141D206A9A2F0056BDA0 /* Question5.swift in Sources */,
 				16971417206A993B0056BDA0 /* Quiz5ViewController.swift in Sources */,
 				16971413206A96E10056BDA0 /* Question4.swift in Sources */,
+				A2BB26FB2086B6CC00D83687 /* API Helper.swift in Sources */,
 				1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */,
 				16971409206A92E90056BDA0 /* Question2.swift in Sources */,
+				A2D469C12086B5DC0062EEAB /* Extensions.swift in Sources */,
 				16971419206A994B0056BDA0 /* Quiz6ViewController.swift in Sources */,
 				1697141F206A9A370056BDA0 /* Question6.swift in Sources */,
 				16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */,
 				16971421206A9A500056BDA0 /* Question7.swift in Sources */,
 				16971411206A96AF0056BDA0 /* Quiz4ViewController.swift in Sources */,
 				1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */,
-				A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */,
 				164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */,
+				A2CD38D02086C37800662CD9 /* ResourceListTableViewCell.swift in Sources */,
 				1697140D206A95610056BDA0 /* Question3.swift in Sources */,
+				A2CD38CB2086C2C400662CD9 /* ResourceListTableViewController.swift in Sources */,
 				164EF115203D08EB000B9C30 /* ResourceViewController.swift in Sources */,
 				1697140B206A94F50056BDA0 /* Quiz3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2D469A42086B48B0062EEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D469AB2086B48B0062EEAB /* HymnDBFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D469B22086B4A30062EEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D469B92086B4A30062EEAB /* HymnDBFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D469AE2086B48B0062EEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164EF0FC203CF37E000B9C30 /* HymnDBFinal */;
+			targetProxy = A2D469AD2086B48B0062EEAB /* PBXContainerItemProxy */;
+		};
+		A2D469BC2086B4A30062EEAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164EF0FC203CF37E000B9C30 /* HymnDBFinal */;
+			targetProxy = A2D469BB2086B4A30062EEAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		164EF104203CF37E000B9C30 /* Main.storyboard */ = {
@@ -489,6 +813,84 @@
 			};
 			name = Release;
 		};
+		A2D469B02086B48B0062EEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8527AD44C2BD755344840E1D /* Pods-HymnDBFinalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HymnDBFinal.app/HymnDBFinal";
+			};
+			name = Debug;
+		};
+		A2D469B12086B48B0062EEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B26B2639785CFD5B71B1C3C /* Pods-HymnDBFinalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HymnDBFinal.app/HymnDBFinal";
+			};
+			name = Release;
+		};
+		A2D469BE2086B4A30062EEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156876C20FC79C7ABB443A85 /* Pods-HymnDBFinalUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HymnDBFinal;
+			};
+			name = Debug;
+		};
+		A2D469BF2086B4A30062EEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D260A8687D5F4358D3D7D4 /* Pods-HymnDBFinalUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HymnDBFinal;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,6 +908,24 @@
 			buildConfigurations = (
 				164EF110203CF37E000B9C30 /* Debug */,
 				164EF111203CF37E000B9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D469AF2086B48B0062EEAB /* Build configuration list for PBXNativeTarget "HymnDBFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D469B02086B48B0062EEAB /* Debug */,
+				A2D469B12086B48B0062EEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D469BD2086B4A30062EEAB /* Build configuration list for PBXNativeTarget "HymnDBFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D469BE2086B4A30062EEAB /* Debug */,
+				A2D469BF2086B4A30062EEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

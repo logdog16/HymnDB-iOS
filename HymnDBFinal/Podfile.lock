@@ -1,5 +1,11 @@
 PODS:
   - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Material (2.14.0):
+    - Material/Core (= 2.14.0)
+  - Material/Core (2.14.0):
+    - Motion (~> 1.3.0)
   - MaterialComponents (54.7.0):
     - MaterialComponents/ActivityIndicator (= 54.7.0)
     - "MaterialComponents/ActivityIndicator+Extensions (= 54.7.0)"
@@ -437,38 +443,53 @@ PODS:
     - MaterialComponents/private/Application
   - MDFInternationalization (1.0.4)
   - MDFTextAccessibility (1.2.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
   - MotionAnimator (2.8.1):
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - MotionTransitioning (5.0.0)
   - PDFReader (2.5.1)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.3)
+  - Material (~> 2.0)
   - MaterialComponents
   - PDFReader
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - AlamofireImage
+    - Material
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
+    - Motion
     - MotionAnimator
     - MotionInterchange
     - MotionTransitioning
     - PDFReader
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Material: c5bea030f57d4b903c5284200bb612d571c9ec03
   MaterialComponents: 4de1b70557a135c39a9901d2db4ae32600b735f1
   MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
   MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
   PDFReader: 2c4a845d0560f33221cf911516e3b700967680f6
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 2667356f02512cec945fa2a0e4f875f12994397f
+PODFILE CHECKSUM: f78c3b7f8f92eae57f2154bd688cad00d716a1c8
 
 COCOAPODS: 1.5.0
