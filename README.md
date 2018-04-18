@@ -6,7 +6,7 @@ In order to compile & run, must install
 - Alamofire
 - Materials
 - PDFReader
-
+- AlamofireImage
 
 To install Cocoa Pods:
 1) Pull latest repo, make sure you have a Podfile & Podfile.lock
@@ -30,6 +30,7 @@ To install Cocoa Pods:
 			pod 'Alamofire', '~> 4.7'
 			pod 'MaterialComponents'
 			pod 'PDFReader'
+			pod 'AlamofireImage', '~> 3.3'
 			use_frameworks!
 				 
 			# Pods for HymnDBFinal
@@ -60,7 +61,7 @@ To install Cocoa Pods:
 
 		github "Alamofire/Alamofire" ~> 4.7
 		github "CosmicMind/Material"
-
+		github "AlamofireImage" ~> 3.3
 
 
 
