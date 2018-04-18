@@ -35,11 +35,38 @@
 		16971427206A9B730056BDA0 /* Question7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16971426206A9B730056BDA0 /* Question7.storyboard */; };
 		16E02BD02055F76D00122249 /* Choices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BCF2055F76D00122249 /* Choices.storyboard */; };
 		16E02BD62055FCFE00122249 /* Questions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E02BD52055FCFE00122249 /* Questions.storyboard */; };
+		2DA2510C53451E6304E8B81F /* Pods_HymnDBFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C57919F30D7E31608923F10 /* Pods_HymnDBFinalTests.framework */; };
+		6466ACCE2F5CCE1A23E50BF4 /* Pods_HymnDBFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */; };
+		A25BD62C2087B54D00C8F98B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD62B2087B54D00C8F98B /* HomeViewController.swift */; };
+		A25BD6352087BA9900C8F98B /* HymnDBFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD6342087BA9900C8F98B /* HymnDBFinalUITests.swift */; };
+		A25BD6432087BAB700C8F98B /* HymnDBFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD6422087BAB700C8F98B /* HymnDBFinalTests.swift */; };
+		A25BD64B2087BD7D00C8F98B /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25BD64A2087BD7D00C8F98B /* ApiHelper.swift */; };
+		A26C53B12087C388002ACFC4 /* ResourceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26C53B02087C388002ACFC4 /* ResourceList.storyboard */; };
+		A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */; };
+		A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */; };
 		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
 		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A25BD6372087BA9900C8F98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164EF0F5203CF37E000B9C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164EF0FC203CF37E000B9C30;
+			remoteInfo = HymnDBFinal;
+		};
+		A25BD6452087BAB700C8F98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164EF0F5203CF37E000B9C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164EF0FC203CF37E000B9C30;
+			remoteInfo = HymnDBFinal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164EF100203CF37E000B9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		164EF102203CF37E000B9C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,10 +97,26 @@
 		16971426206A9B730056BDA0 /* Question7.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question7.storyboard; sourceTree = "<group>"; };
 		16E02BCF2055F76D00122249 /* Choices.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Choices.storyboard; sourceTree = "<group>"; };
 		16E02BD52055FCFE00122249 /* Questions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Questions.storyboard; sourceTree = "<group>"; };
+		3C57919F30D7E31608923F10 /* Pods_HymnDBFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.release.xcconfig"; sourceTree = "<group>"; };
 		58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE7DF1BCC2885315ED1E532 /* Pods-HymnDBFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A25BD62B2087B54D00C8F98B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A25BD6322087BA9900C8F98B /* HymnDBFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnDBFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25BD6342087BA9900C8F98B /* HymnDBFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnDBFinalUITests.swift; sourceTree = "<group>"; };
+		A25BD6362087BA9900C8F98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25BD6402087BAB700C8F98B /* HymnDBFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnDBFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25BD6422087BAB700C8F98B /* HymnDBFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnDBFinalTests.swift; sourceTree = "<group>"; };
+		A25BD6442087BAB700C8F98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25BD64A2087BD7D00C8F98B /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		A26C53B02087C388002ACFC4 /* ResourceList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourceList.storyboard; sourceTree = "<group>"; };
+		A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResoureListTableViewController.swift; sourceTree = "<group>"; };
+		A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListTableViewCell.swift; sourceTree = "<group>"; };
 		A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
+		D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		DDBF7C8303B9667039054514 /* Pods-HymnDBFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE9BECDF711DB41E2426471F /* Pods-HymnDBFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalTests/Pods-HymnDBFinalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +128,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A25BD62F2087BA9900C8F98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6466ACCE2F5CCE1A23E50BF4 /* Pods_HymnDBFinalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25BD63D2087BAB700C8F98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA2510C53451E6304E8B81F /* Pods_HymnDBFinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */,
+				3C57919F30D7E31608923F10 /* Pods_HymnDBFinalTests.framework */,
+				D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				164EF0FF203CF37E000B9C30 /* HymnDBFinal */,
+				A25BD6332087BA9900C8F98B /* HymnDBFinalUITests */,
+				A25BD6412087BAB700C8F98B /* HymnDBFinalTests */,
 				164EF0FE203CF37E000B9C30 /* Products */,
 				71353569E494B602931D2783 /* Pods */,
 				13BA099C9D09DC9405E8DD36 /* Frameworks */,
@@ -110,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */,
+				A25BD6322087BA9900C8F98B /* HymnDBFinalUITests.xctest */,
+				A25BD6402087BAB700C8F98B /* HymnDBFinalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,13 +185,16 @@
 				A2F9062A207D170B00AA9695 /* Quiz */,
 				164EF100203CF37E000B9C30 /* AppDelegate.swift */,
 				A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */,
+				A26C53B62087C3C0002ACFC4 /* ResourceListTableViewController */,
 				164EF102203CF37E000B9C30 /* ViewController.swift */,
 				164EF114203D08EB000B9C30 /* ResourceViewController.swift */,
-				164EF104203CF37E000B9C30 /* Main.storyboard */,
+				A25BD62D2087B8B800C8F98B /* HomeViewController */,
 				164EF107203CF37E000B9C30 /* Assets.xcassets */,
 				164EF109203CF37E000B9C30 /* LaunchScreen.storyboard */,
+				164EF104203CF37E000B9C30 /* Main.storyboard */,
 				164EF10C203CF37E000B9C30 /* Info.plist */,
 				16E02BCF2055F76D00122249 /* Choices.storyboard */,
+				A25BD64C2087BD8E00C8F98B /* Middleware */,
 			);
 			path = HymnDBFinal;
 			sourceTree = "<group>";
@@ -136,8 +204,56 @@
 			children = (
 				D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */,
 				436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */,
+				9EE7DF1BCC2885315ED1E532 /* Pods-HymnDBFinalTests.debug.xcconfig */,
+				FE9BECDF711DB41E2426471F /* Pods-HymnDBFinalTests.release.xcconfig */,
+				085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */,
+				DDBF7C8303B9667039054514 /* Pods-HymnDBFinalUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A25BD62D2087B8B800C8F98B /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A25BD62B2087B54D00C8F98B /* HomeViewController.swift */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		A25BD6332087BA9900C8F98B /* HymnDBFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A25BD6342087BA9900C8F98B /* HymnDBFinalUITests.swift */,
+				A25BD6362087BA9900C8F98B /* Info.plist */,
+			);
+			path = HymnDBFinalUITests;
+			sourceTree = "<group>";
+		};
+		A25BD6412087BAB700C8F98B /* HymnDBFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A25BD6422087BAB700C8F98B /* HymnDBFinalTests.swift */,
+				A25BD6442087BAB700C8F98B /* Info.plist */,
+			);
+			path = HymnDBFinalTests;
+			sourceTree = "<group>";
+		};
+		A25BD64C2087BD8E00C8F98B /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				A25BD64A2087BD7D00C8F98B /* ApiHelper.swift */,
+			);
+			name = Middleware;
+			sourceTree = "<group>";
+		};
+		A26C53B62087C3C0002ACFC4 /* ResourceListTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */,
+				A26C53B02087C388002ACFC4 /* ResourceList.storyboard */,
+				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
+			);
+			name = ResourceListTableViewController;
 			sourceTree = "<group>";
 		};
 		A2F9062A207D170B00AA9695 /* Quiz */ = {
@@ -190,19 +306,67 @@
 			productReference = 164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A25BD6312087BA9900C8F98B /* HymnDBFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25BD6392087BA9900C8F98B /* Build configuration list for PBXNativeTarget "HymnDBFinalUITests" */;
+			buildPhases = (
+				C0AB9F9872D2B163C5669460 /* [CP] Check Pods Manifest.lock */,
+				A25BD62E2087BA9900C8F98B /* Sources */,
+				A25BD62F2087BA9900C8F98B /* Frameworks */,
+				A25BD6302087BA9900C8F98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25BD6382087BA9900C8F98B /* PBXTargetDependency */,
+			);
+			name = HymnDBFinalUITests;
+			productName = HymnDBFinalUITests;
+			productReference = A25BD6322087BA9900C8F98B /* HymnDBFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A25BD63F2087BAB700C8F98B /* HymnDBFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25BD6472087BAB700C8F98B /* Build configuration list for PBXNativeTarget "HymnDBFinalTests" */;
+			buildPhases = (
+				9B8BF6801FFC83ECC9B481F5 /* [CP] Check Pods Manifest.lock */,
+				A25BD63C2087BAB700C8F98B /* Sources */,
+				A25BD63D2087BAB700C8F98B /* Frameworks */,
+				A25BD63E2087BAB700C8F98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25BD6462087BAB700C8F98B /* PBXTargetDependency */,
+			);
+			name = HymnDBFinalTests;
+			productName = HymnDBFinalTests;
+			productReference = A25BD6402087BAB700C8F98B /* HymnDBFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		164EF0F5203CF37E000B9C30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Adrien Ibarra";
 				TargetAttributes = {
 					164EF0FC203CF37E000B9C30 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Manual;
+					};
+					A25BD6312087BA9900C8F98B = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 164EF0FC203CF37E000B9C30;
+					};
+					A25BD63F2087BAB700C8F98B = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 164EF0FC203CF37E000B9C30;
 					};
 				};
 			};
@@ -220,6 +384,8 @@
 			projectRoot = "";
 			targets = (
 				164EF0FC203CF37E000B9C30 /* HymnDBFinal */,
+				A25BD6312087BA9900C8F98B /* HymnDBFinalUITests */,
+				A25BD63F2087BAB700C8F98B /* HymnDBFinalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +401,7 @@
 				16E02BD62055FCFE00122249 /* Questions.storyboard in Resources */,
 				16971405206A92510056BDA0 /* Question2.storyboard in Resources */,
 				1697140F206A95D20056BDA0 /* Question3.storyboard in Resources */,
+				A26C53B12087C388002ACFC4 /* ResourceList.storyboard in Resources */,
 				16971423206A9B610056BDA0 /* Question5.storyboard in Resources */,
 				16971415206A97460056BDA0 /* Question4.storyboard in Resources */,
 				16971425206A9B6A0056BDA0 /* Question6.storyboard in Resources */,
@@ -243,9 +410,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A25BD6302087BA9900C8F98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25BD63E2087BAB700C8F98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9B8BF6801FFC83ECC9B481F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HymnDBFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A5C6611D7FAEF27285E3778C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +472,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/IoniconsKit/IoniconsKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
@@ -280,11 +481,14 @@
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
 				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IoniconsKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
@@ -292,10 +496,29 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AB9F9872D2B163C5669460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HymnDBFinalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -306,14 +529,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				164EF103203CF37E000B9C30 /* ViewController.swift in Sources */,
+				A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */,
 				1697141B206A995C0056BDA0 /* Quiz7ViewController.swift in Sources */,
+				A25BD62C2087B54D00C8F98B /* HomeViewController.swift in Sources */,
 				1697141D206A9A2F0056BDA0 /* Question5.swift in Sources */,
+				A25BD64B2087BD7D00C8F98B /* ApiHelper.swift in Sources */,
 				16971417206A993B0056BDA0 /* Quiz5ViewController.swift in Sources */,
 				16971413206A96E10056BDA0 /* Question4.swift in Sources */,
 				1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */,
 				16971409206A92E90056BDA0 /* Question2.swift in Sources */,
 				16971419206A994B0056BDA0 /* Quiz6ViewController.swift in Sources */,
 				1697141F206A9A370056BDA0 /* Question6.swift in Sources */,
+				A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */,
 				16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */,
 				16971421206A9A500056BDA0 /* Question7.swift in Sources */,
 				16971411206A96AF0056BDA0 /* Quiz4ViewController.swift in Sources */,
@@ -326,7 +553,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A25BD62E2087BA9900C8F98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25BD6352087BA9900C8F98B /* HymnDBFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25BD63C2087BAB700C8F98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25BD6432087BAB700C8F98B /* HymnDBFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A25BD6382087BA9900C8F98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164EF0FC203CF37E000B9C30 /* HymnDBFinal */;
+			targetProxy = A25BD6372087BA9900C8F98B /* PBXContainerItemProxy */;
+		};
+		A25BD6462087BAB700C8F98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164EF0FC203CF37E000B9C30 /* HymnDBFinal */;
+			targetProxy = A25BD6452087BAB700C8F98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		164EF104203CF37E000B9C30 /* Main.storyboard */ = {
@@ -491,6 +747,84 @@
 			};
 			name = Release;
 		};
+		A25BD63A2087BA9900C8F98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HymnDBFinal;
+			};
+			name = Debug;
+		};
+		A25BD63B2087BA9900C8F98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBF7C8303B9667039054514 /* Pods-HymnDBFinalUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HymnDBFinal;
+			};
+			name = Release;
+		};
+		A25BD6482087BAB700C8F98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE7DF1BCC2885315ED1E532 /* Pods-HymnDBFinalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HymnDBFinal.app/HymnDBFinal";
+			};
+			name = Debug;
+		};
+		A25BD6492087BAB700C8F98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9BECDF711DB41E2426471F /* Pods-HymnDBFinalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HymnDBFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.HymnDBFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HymnDBFinal.app/HymnDBFinal";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -508,6 +842,24 @@
 			buildConfigurations = (
 				164EF110203CF37E000B9C30 /* Debug */,
 				164EF111203CF37E000B9C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25BD6392087BA9900C8F98B /* Build configuration list for PBXNativeTarget "HymnDBFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25BD63A2087BA9900C8F98B /* Debug */,
+				A25BD63B2087BA9900C8F98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25BD6472087BAB700C8F98B /* Build configuration list for PBXNativeTarget "HymnDBFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25BD6482087BAB700C8F98B /* Debug */,
+				A25BD6492087BAB700C8F98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
