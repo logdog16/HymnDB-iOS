@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cjv-ac-9oa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cjv-ac-9oa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Main-->
         <scene sceneID="jLr-Ka-iC5">
@@ -54,7 +59,7 @@
                                                 <rect key="frame" x="8" y="110" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="books-education-school-literature-48126">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -62,7 +67,7 @@
                                                 <rect key="frame" x="8" y="300" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="praise-to-god-hymnal-church-catholic-161287">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -70,7 +75,7 @@
                                                 <rect key="frame" x="8" y="490" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Thesis/Dissertation" backgroundImage="open-book-library-education-read-159621">
+                                                <state key="normal" title="Thesis/Dissertation">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -78,7 +83,7 @@
                                                 <rect key="frame" x="8" y="680" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Articles" backgroundImage="pexels-photo-518543">
+                                                <state key="normal" title="Articles">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -86,7 +91,7 @@
                                                 <rect key="frame" x="8" y="870" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Blog" backgroundImage="pexels-photo-267569">
+                                                <state key="normal" title="Blog">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -94,7 +99,7 @@
                                                 <rect key="frame" x="8" y="1060" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Forum" backgroundImage="startup-photos">
+                                                <state key="normal" title="Forum">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -102,7 +107,7 @@
                                                 <rect key="frame" x="8" y="1250" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Newsletter/E-News" backgroundImage="pexels-photo-261706">
+                                                <state key="normal" title="Newsletter/E-News">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -110,7 +115,7 @@
                                                 <rect key="frame" x="8" y="1440" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Audio " backgroundImage="microphone-audio-computer-sound-recording-55800">
+                                                <state key="normal" title="Audio ">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -118,7 +123,7 @@
                                                 <rect key="frame" x="8" y="1630" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="pexels-photo-635005">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -126,7 +131,7 @@
                                                 <rect key="frame" x="8" y="1820" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="pexels-photo-66134">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -134,7 +139,7 @@
                                                 <rect key="frame" x="8" y="2010" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="pexels-photo-133699">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -149,7 +154,7 @@
                                                 <rect key="frame" x="8" y="2200" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="pexels-photo-296883">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -164,7 +169,7 @@
                                                 <rect key="frame" x="8" y="2390" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" backgroundImage="people-eiffel-tower-lights-night">
+                                                <state key="normal">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -172,7 +177,7 @@
                                                 <rect key="frame" x="8" y="2581" width="359" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="35"/>
-                                                <state key="normal" title="Persons" backgroundImage="pexels-photo-296881">
+                                                <state key="normal" title="Persons">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
@@ -281,19 +286,5 @@
     </scenes>
     <resources>
         <image name="Image" width="291" height="98"/>
-        <image name="books-education-school-literature-48126" width="5760" height="3840"/>
-        <image name="microphone-audio-computer-sound-recording-55800" width="4288" height="2848"/>
-        <image name="open-book-library-education-read-159621" width="4592" height="3448"/>
-        <image name="people-eiffel-tower-lights-night" width="7360" height="4912"/>
-        <image name="pexels-photo-133699" width="4913" height="3276"/>
-        <image name="pexels-photo-261706" width="4900" height="2613"/>
-        <image name="pexels-photo-267569" width="5760" height="3840"/>
-        <image name="pexels-photo-296881" width="3548" height="1956"/>
-        <image name="pexels-photo-296883" width="7360" height="4912"/>
-        <image name="pexels-photo-518543" width="2250" height="1500"/>
-        <image name="pexels-photo-635005" width="5184" height="3456"/>
-        <image name="pexels-photo-66134" width="3968" height="2645"/>
-        <image name="praise-to-god-hymnal-church-catholic-161287" width="5472" height="3648"/>
-        <image name="startup-photos" width="3000" height="2092"/>
     </resources>
 </document>
