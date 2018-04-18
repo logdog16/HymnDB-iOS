@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Material
 import MaterialComponents
 
 class ResourceListTableViewController: UITableViewController {

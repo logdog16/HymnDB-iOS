@@ -1,15 +1,14 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-source 'https://github.com/CocoaPods/Specs.git'
-
 target 'HymnDBFinal' do
-  pod 'Alamofire', '~> 4.7'
-  pod 'Material', '~> 2.0'
-  pod 'MaterialComponents'
-  pod 'PDFReader'
-  pod 'SwiftyJSON', '~> 4.0'
-  pod 'AlamofireImage', '~> 3.3'
+pod 'Alamofire', '~> 4.7'
+pod 'Material', '~> 2.0'
+pod 'MaterialComponents'
+pod 'PDFReader'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'AlamofireImage', '~> 3.3'
+
   use_frameworks!
 
   # Pods for HymnDBFinal
