@@ -44,6 +44,18 @@
 		A26C53B12087C388002ACFC4 /* ResourceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26C53B02087C388002ACFC4 /* ResourceList.storyboard */; };
 		A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */; };
 		A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */; };
+		A26C53B82087CAAA002ACFC4 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53B72087CAAA002ACFC4 /* MaterialComponents.framework */; };
+		A26C53BA2088DADF002ACFC4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53B92088DADF002ACFC4 /* Alamofire.framework */; };
+		A26C53BC2088DADF002ACFC4 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53BB2088DADF002ACFC4 /* AlamofireImage.framework */; };
+		A26C53BE2088DADF002ACFC4 /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53BD2088DADF002ACFC4 /* IBAnimatable.framework */; };
+		A26C53C02088DADF002ACFC4 /* IoniconsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53BF2088DADF002ACFC4 /* IoniconsKit.framework */; };
+		A26C53C22088DADF002ACFC4 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C12088DADF002ACFC4 /* MDFInternationalization.framework */; };
+		A26C53C42088DADF002ACFC4 /* MDFTextAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C32088DADF002ACFC4 /* MDFTextAccessibility.framework */; };
+		A26C53C62088DADF002ACFC4 /* MotionAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C52088DADF002ACFC4 /* MotionAnimator.framework */; };
+		A26C53C82088DADF002ACFC4 /* MotionInterchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C72088DADF002ACFC4 /* MotionInterchange.framework */; };
+		A26C53CA2088DADF002ACFC4 /* MotionTransitioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C92088DADF002ACFC4 /* MotionTransitioning.framework */; };
+		A26C53CC2088DADF002ACFC4 /* PDFReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CB2088DADF002ACFC4 /* PDFReader.framework */; };
+		A26C53CE2088DADF002ACFC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */; };
 		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
 		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
@@ -112,6 +124,18 @@
 		A26C53B02087C388002ACFC4 /* ResourceList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourceList.storyboard; sourceTree = "<group>"; };
 		A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResoureListTableViewController.swift; sourceTree = "<group>"; };
 		A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListTableViewCell.swift; sourceTree = "<group>"; };
+		A26C53B72087CAAA002ACFC4 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53B92088DADF002ACFC4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53BB2088DADF002ACFC4 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53BD2088DADF002ACFC4 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53BF2088DADF002ACFC4 /* IoniconsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IoniconsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53C12088DADF002ACFC4 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53C32088DADF002ACFC4 /* MDFTextAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MDFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53C52088DADF002ACFC4 /* MotionAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53C72088DADF002ACFC4 /* MotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53C92088DADF002ACFC4 /* MotionTransitioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionTransitioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53CB2088DADF002ACFC4 /* PDFReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PDFReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
 		D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +148,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26C53BA2088DADF002ACFC4 /* Alamofire.framework in Frameworks */,
+				A26C53BC2088DADF002ACFC4 /* AlamofireImage.framework in Frameworks */,
+				A26C53BE2088DADF002ACFC4 /* IBAnimatable.framework in Frameworks */,
+				A26C53C02088DADF002ACFC4 /* IoniconsKit.framework in Frameworks */,
+				A26C53C22088DADF002ACFC4 /* MDFInternationalization.framework in Frameworks */,
+				A26C53C42088DADF002ACFC4 /* MDFTextAccessibility.framework in Frameworks */,
+				A26C53C62088DADF002ACFC4 /* MotionAnimator.framework in Frameworks */,
+				A26C53C82088DADF002ACFC4 /* MotionInterchange.framework in Frameworks */,
+				A26C53CA2088DADF002ACFC4 /* MotionTransitioning.framework in Frameworks */,
+				A26C53CC2088DADF002ACFC4 /* PDFReader.framework in Frameworks */,
+				A26C53CE2088DADF002ACFC4 /* SwiftyJSON.framework in Frameworks */,
+				A26C53B82087CAAA002ACFC4 /* MaterialComponents.framework in Frameworks */,
 				AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +186,18 @@
 		13BA099C9D09DC9405E8DD36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A26C53B92088DADF002ACFC4 /* Alamofire.framework */,
+				A26C53BB2088DADF002ACFC4 /* AlamofireImage.framework */,
+				A26C53BD2088DADF002ACFC4 /* IBAnimatable.framework */,
+				A26C53BF2088DADF002ACFC4 /* IoniconsKit.framework */,
+				A26C53C12088DADF002ACFC4 /* MDFInternationalization.framework */,
+				A26C53C32088DADF002ACFC4 /* MDFTextAccessibility.framework */,
+				A26C53C52088DADF002ACFC4 /* MotionAnimator.framework */,
+				A26C53C72088DADF002ACFC4 /* MotionInterchange.framework */,
+				A26C53C92088DADF002ACFC4 /* MotionTransitioning.framework */,
+				A26C53CB2088DADF002ACFC4 /* PDFReader.framework */,
+				A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */,
+				A26C53B72087CAAA002ACFC4 /* MaterialComponents.framework */,
 				58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */,
 				3C57919F30D7E31608923F10 /* Pods_HymnDBFinalTests.framework */,
 				D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */,
@@ -351,7 +399,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Adrien Ibarra";
 				TargetAttributes = {
 					164EF0FC203CF37E000B9C30 = {
@@ -618,6 +666,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -625,6 +674,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -675,6 +725,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -682,6 +733,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
