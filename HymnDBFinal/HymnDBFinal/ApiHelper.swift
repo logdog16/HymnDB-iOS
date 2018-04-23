@@ -27,9 +27,5 @@ class ApiHelper {
             }
         }
     }
-    
-//    static func setResourceImg(path:String, id:String, type:String, completionHandler: @escaping (String?, Error?) -> ()) {
-//        getProfilePic("pictures/?id=\(id)&picture_type=\(type)", completionHandler: completionHandler)
-//    }
 
 }

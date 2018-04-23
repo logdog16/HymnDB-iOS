@@ -10,10 +10,11 @@ import UIKit
 import MaterialComponents
 
 class ResourceListTableViewCell: UITableViewCell {
-    
+
     @IBOutlet weak var resourceLabel: UILabel!
     @IBOutlet weak var cardView: UIView!
-    @IBOutlet weak var backgroundView: UIImageView!
+    //@IBOutlet weak var backgroundImage: UIImage!
+   // @IBOutlet weak var backgroundView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,9 +24,9 @@ class ResourceListTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         
         if selected {
-            UIView.animate(withDuration: 0.3, animations: {
-                self.cardView.setBackgroundImage = self.assignedColor.darkerColor()
-            })
+//            UIView.animate(withDuration: 0.3, animations: {
+//                self.cardView.setBackgroundImage = self.assignedColor.darkerColor()
+//            })
         }
         else {
             self.cardView.backgroundColor = UIColor.white

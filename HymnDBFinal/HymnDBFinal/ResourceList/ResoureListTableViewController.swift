@@ -15,7 +15,7 @@ import SwiftyJSON
 class ResourceListTableViewController: UITableViewController {
     
     @IBOutlet weak var home: UIButton!
-    @IBOutlet weak var resourceLabel: UILabel!
+
     
     var resourceList:[JSON] = []
     var selectedRow = 0
@@ -111,13 +111,13 @@ class ResourceListTableViewController: UITableViewController {
         }
         
         // set the background image to a value
-        if resource["resourceImage"].string != nil {
-            let image = ApiHelper.getResourceImg(resource["resourceImage"])
-            cell.backgroundView = image
-        }
+//        if resource["resourceImage"].string != nil {
+//            let image = ApiHelper.getResourceImg(resource["resourceImage"])
+//            cell.backgroundView = image
+//        }
         
         
-        cell.cardView.backgroundColor = UIColor.white
+        
 //        self.tile3.addTarget(self, action: "Action:", for:UIControlEvents.touchUpInside)
         
         

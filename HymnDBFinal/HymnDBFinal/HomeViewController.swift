@@ -20,14 +20,11 @@ class HomeViewController: UIViewController {
         
         // EDIT FONT TO WHAT HE WANTS
         titleLabel.text = "CCS Resource Connector"
-        browseResourcesButton.setTitle("Browse Resourcs", forState: UIControlState.Normal)
-        quizButton.setTitle("Help Me Find Resources", forState: UIControlState.Normal)
+        browseResourcesButton.setTitle("Browse Resourcs", for: [])
+        quizButton.setTitle("Help Me Find Resources", for: [])
         //titleLabel.font = RobotoFont.regular(with: 30.0)
         
       //  self.view.backgroundColor = THEME_COLOR
-        
-        prepareBrowseButton()
-        prepareQuizButton()
         
     }
     
@@ -40,53 +37,26 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    func prepareBrowseButton() {
-        func browseButtontitleColor(for state: normal) -> UIColor?
-        
-//        browseResourcesButton.title = "Browse Resources"
-        browseResourcesButton.titleColor = .white
-        //browseResourcesButton.backgroundColor = UIColor(hex: "00AEEF")
-    }
-    
-    func prepareQuizButton() {
-        quizButton.text = "Help Me Find Resources"
-        quizButton.titleColor = .white
-        //quizButton.backgroundColor = UIColor(hex: "00AEEF")
-    }
-    
     @IBAction func resourcesButtonPressed(_ sender: Any) {
-        self.goToResourceList()
-        browseResourcesButton.pulse()
-    }
-    
-//    @IBAction func resourcesButtonPressed(_ sender: Any) {
-//
-//        //make API call to check login
-//        UIApplication.shared.isNetworkActivityIndicatorVisible = true
-//        ApiHelper.getQuiz("home/"){
-//            self.goToQuiz()
-//
-//            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-//            return
-//        }
-//
-//        browseResourcesButton.pulse()
-//    }
-    
-    @IBAction func quizButtonPressed(_ sender: Any) {
-        goToQuiz()
-    }
-    
-    func goToResourceList() {
-        let nextViewController = AppStoryboard.ResourceList.initialViewController()!
-        
+        //self.navigationController?.pushViewController(ResourceList, animated: true)
         let backItem = UIBarButtonItem()
         backItem.title = "Home"
         navigationItem.backBarButtonItem = backItem
-        
-        self.navigationController?.pushViewController(nextViewController, animated: true)
+//        let nextVc = navigationItem.ResourceList.instantiateViewController()
+//
+        let storyboard = UIStoryboard(name: "ResourceList", bundle: nil).instantiateInitialViewController()
+       // let vc = AppStoryboard?.ResourceList.initialViewController()
+        present(storyboard!, animated: true, completion: nil)
     }
-    
+        
+    @IBAction func quizButtonPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Questions", bundle: nil).instantiateInitialViewController()
+        present(storyboard!, animated: true, completion: nil)
+        let backItem = UIBarButtonItem()
+        backItem.title = "Home"
+        navigationItem.backBarButtonItem = backItem
+    }
+
 }
 
 /*
