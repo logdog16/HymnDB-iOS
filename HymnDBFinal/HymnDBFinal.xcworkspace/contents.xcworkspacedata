@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/estephanian/Desktop/HymnDB/HymnDBFinal/HymnDBFinal/Extensions.swift">
+   </FileRef>
+   <FileRef
       location = "group:HymnDBFinal.xcodeproj">
    </FileRef>
    <FileRef

@@ -11,21 +11,20 @@ import MaterialComponents
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
-    
-    @IBOutlet weak var browseResourcesButton: RaisedButton!
-    @IBOutlet weak var quizButton: RaisedButton!
+
+    @IBOutlet weak var browseResourcesButton: UIButton!
+    @IBOutlet weak var quizButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // EDIT FONT TO WHAT HE WANTS
-        titleLabel.text = "Welcome"
+        titleLabel.text = "CCS Resource Connector"
+        browseResourcesButton.setTitle("Browse Resourcs", for: [])
+        quizButton.setTitle("Help Me Find Resources", for: [])
         //titleLabel.font = RobotoFont.regular(with: 30.0)
         
-        self.view.backgroundColor = THEME_COLOR
-        
-        prepareBrowseButton()
-        prepareQuizButton()
+      //  self.view.backgroundColor = THEME_COLOR
         
     }
     
@@ -38,60 +37,26 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    func prepareBrowseButton() {
-        browseResourcesButton.title = "Browse Resources"
-        browseResourcesButton.titleColor = .white
-        browseResourcesButton.pulseColor = .white
-        browseResourcesButton.pulseOpacity = 0.9
-        //browseResourcesButton.backgroundColor = UIColor(hex: "00AEEF")
-    }
-    
-    func prepareQuizButton() {
-        quizButton.title = "Help me find resources"
-        quizButton.titleColor = .white
-        quizButton.pulseColor = .white
-        quizButton.pulseOpacity = 0.9
-        //quizButton.backgroundColor = UIColor(hex: "00AEEF")
-    }
-    
     @IBAction func resourcesButtonPressed(_ sender: Any) {
-        
-        //make API call to check login
-        UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        ApiHelper.getQuiz("home/"){
-            self.goToQuiz()
-            
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-            return
-        }
-        
-        browseResourcesButton.pulse()
-    }
-    
-    @IBAction func quizButtonPressed(_ sender: Any) {
-        
-        //make API call to check login
-        UIApplication.shared.isNetworkActivityIndicatorVisible = true
-        ApiHelper.getResources("home/"){
-            self.goToResourceList()
-            
-            UIApplication.shared.isNetworkActivityIndicatorVisible = false
-            return
-        }
-        
-        browseResourcesButton.pulse()
-    }
-    
-    func goToResourceList() {
-        let nextViewController = AppStoryboard.ResourceList.initialViewController()!
-        
+        //self.navigationController?.pushViewController(ResourceList, animated: true)
         let backItem = UIBarButtonItem()
         backItem.title = "Home"
         navigationItem.backBarButtonItem = backItem
-        
-        self.navigationController?.pushViewController(nextViewController, animated: true)
+//        let nextVc = navigationItem.ResourceList.instantiateViewController()
+//
+        let storyboard = UIStoryboard(name: "ResourceList", bundle: nil).instantiateInitialViewController()
+       // let vc = AppStoryboard?.ResourceList.initialViewController()
+        present(storyboard!, animated: true, completion: nil)
     }
-    
+        
+    @IBAction func quizButtonPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Questions", bundle: nil).instantiateInitialViewController()
+        present(storyboard!, animated: true, completion: nil)
+        let backItem = UIBarButtonItem()
+        backItem.title = "Home"
+        navigationItem.backBarButtonItem = backItem
+    }
+
 }
 
 /*

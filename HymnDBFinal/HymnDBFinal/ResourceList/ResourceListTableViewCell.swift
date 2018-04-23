@@ -10,25 +10,26 @@ import UIKit
 import MaterialComponents
 
 class ResourceListTableViewCell: UITableViewCell {
-    
+
     @IBOutlet weak var resourceLabel: UILabel!
     @IBOutlet weak var cardView: UIView!
+    //@IBOutlet weak var backgroundImage: UIImage!
+   // @IBOutlet weak var backgroundView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        resourceLabel.font = RobotoFont.regular(with: 27.0)
+       // resourceLabel.font = RobotoFont.regular(with: 27.0)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         
-        self.cardView.backgroundColor = UIColor.init(hex: "cccccc")
         if selected {
-            UIView.animate(withDuration: 0.3, animations: {
-                self.cardView.backgroundColor = self.assignedColor.darkerColor()
-            })
+//            UIView.animate(withDuration: 0.3, animations: {
+//                self.cardView.setBackgroundImage = self.assignedColor.darkerColor()
+//            })
         }
         else {
-            self.cardView.backgroundColor = assignedColor
+            self.cardView.backgroundColor = UIColor.white
         }
     }
     
