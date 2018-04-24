@@ -15,7 +15,7 @@ class QuizViewController: UITableViewController {
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var home: UIButton!
     
-    private var quizItems = Quiz.getMockData()
+    private var quizItems = myQuiz().getMockData()
     private var questionTitle = ["Which types of song/hymn(s) has your congregation sung recently?"]
  
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -50,9 +50,9 @@ class QuizViewController: UITableViewController {
         
         if indexPath.row < quizItems.count
         {
-            let item = quizItems[indexPath.row]
-            item.done = !item.done
             
+            let item = quizItems[indexPath.row]
+            item.status_switch()
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }
 }

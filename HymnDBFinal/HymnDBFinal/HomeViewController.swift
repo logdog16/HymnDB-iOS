@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
         
         // EDIT FONT TO WHAT HE WANTS
         titleLabel.text = "CCS Resource Connector"
-        browseResourcesButton.setTitle("Browse Resourcs", for: [])
+        browseResourcesButton.setTitle("Browse Resources", for: [])
         quizButton.setTitle("Help Me Find Resources", for: [])
         //titleLabel.font = RobotoFont.regular(with: 30.0)
         

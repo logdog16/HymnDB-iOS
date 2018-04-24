@@ -56,7 +56,6 @@
 		A26C53CA2088DADF002ACFC4 /* MotionTransitioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C92088DADF002ACFC4 /* MotionTransitioning.framework */; };
 		A26C53CC2088DADF002ACFC4 /* PDFReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CB2088DADF002ACFC4 /* PDFReader.framework */; };
 		A26C53CE2088DADF002ACFC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */; };
-		A26C53D1208E583D002ACFC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53D0208E583C002ACFC4 /* Extensions.swift */; };
 		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
 		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
@@ -579,7 +578,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26C53D1208E583D002ACFC4 /* Extensions.swift in Sources */,
 				164EF103203CF37E000B9C30 /* ViewController.swift in Sources */,
 				A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */,
 				1697141B206A995C0056BDA0 /* Quiz7ViewController.swift in Sources */,

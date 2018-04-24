@@ -11,81 +11,87 @@ import MaterialComponents
 import IBAnimatable
 import IoniconsKit
 import SwiftyJSON
+import Alamofire
+import AlamofireImage
 
 class ResourceListTableViewController: UITableViewController {
-    
+    var resourceList:JSON = []
     @IBOutlet weak var home: UIButton!
+    var urls : NSArray = NSArray()
+    var labelTitles : NSArray = ["Books", "Hymnals/Songbooks", "Thesis/Dissertation", "Articles", "Blogs",
+                                 "Forum", "Newsletter/E-News", "Audio Tracks", "Podcast", "Video/Visuals",
+                                 "Congregations", "Organizations", "Events", "Persons"]
+    
 
     
-    var resourceList:[JSON] = []
     var selectedRow = 0
     
-//    let TABLEVIEW_BACKGROUND_COLOR = "FD7F12"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Browse Resources"
         
-        
-        // configure the Resource List
         resourceList = [
-                        ["resourceTitle": "Books",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "1"],
-                        ["resourceTitle": "Hymnals/Songbooks",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "2"],
-                        ["resourceTitle": "Thesis/Dissertations",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "3"],
-                        ["resourceTitle": "Articles",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "4"],
-                        ["resourceTitle": "Blogs",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "5"],
-                        ["resourceTitle": "Forum",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "6"],
-                        ["resourceTitle": "Newsletter/E-News",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "7"],
-                        ["resourceTitle": "Audio Tracks",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "8"],
-                        ["resourceTitle": "Podcasts",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "9"],
-                        ["resourceTitle": "Videos/Visuals",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "10"],
-                        ["resourceTitle": "Congregations",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "11"],
-                        ["resourceTitle": "Organizations",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "12"],
-                        ["resourceTitle": "Events",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "13"],
-                        ["resourceTitle": "Persons",
-                         "resourceImage": "books-education-school-literature-48126.jpg",
-                         "resourceId": "14"],
+            ["resourceTitle": "Books",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/books-education-school-literature-48126.jpg",
+             "resourceId": "1"],
+            ["resourceTitle": "Hymnals/Songbooks",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/open-book-library-education-read-159621.jpg",
+             "resourceId": "2"],
+            ["resourceTitle": "Thesis/Dissertations",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-518543.jpg",
+             "resourceId": "3"],
+            ["resourceTitle": "Articles",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-267569.jpg",
+             "resourceId": "4"],
+            ["resourceTitle": "Blogs",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/startup-photos.jpg",
+             "resourceId": "5"],
+            ["resourceTitle": "Forum",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-261706.jpg",
+             "resourceId": "6"],
+            ["resourceTitle": "Newsletter/E-News",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/microphone-audio-computer-sound-recording-55800.jpg",
+             "resourceId": "7"],
+            ["resourceTitle": "Audio Tracks",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/microphone-audio-computer-sound-recording-55800.jpg",
+             "resourceId": "8"],
+            ["resourceTitle": "Podcasts",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-635005.jpg",
+             "resourceId": "9"],
+            ["resourceTitle": "Videos/Visuals",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-66134.jpg",
+             "resourceId": "10"],
+            ["resourceTitle": "Congregations",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-133699.jpg",
+             "resourceId": "11"],
+            ["resourceTitle": "Organizations",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-296883.jpg",
+             "resourceId": "12"],
+            ["resourceTitle": "Events",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/people-eiffel-tower-lights-night.jpg",
+             "resourceId": "13"],
+            ["resourceTitle": "Persons",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-296881.jpg",
+             "resourceId": "14"]
         ]
         
         
-       // self.tableView.backgroundColor = UIColor.init(hex: TABLEVIEW_BACKGROUND_COLOR)
-        
+//        tableView.tableFooterView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 1))
+
+        // configure the Resource List
+
     }
     
-    func reloadView(){
-        self.tableView.reloadData()
-    }
+//    func reloadView(){
+//        self.tableView.reloadData()
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
+
     // MARK: - Table view data source
     
     // There's only one list of resources (in browse resources)
@@ -98,31 +104,34 @@ class ResourceListTableViewController: UITableViewController {
         return resourceList.count
     }
     
-    // setting each row to a resource value
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        //let resourceTitle = resourceList[indexPath.row]["resourceTitle"].string
         let cell = tableView.dequeueReusableCell(withIdentifier: "ResourceListCell", for: indexPath) as! ResourceListTableViewCell
-        
-        // get the resource from the resourceList
-        let resource = resourceList[indexPath.row]
-        
-        // set the title to a string
-        if let resourceTitle = resource["resourceTitle"].string {
-            cell.resourceLabel.text = resourceTitle
+        cell.resourceLabel?.text = resourceList[indexPath.row]["resourceTitle"].string
+
+        if cell.backgroundView == nil{
+            Alamofire.request(resourceList[indexPath.row]["resourceImage"].string!, method: .get).responseImage { response in
+                guard let image = response.result.value else {
+                    // Handle error
+                    return
+                }
+                cell.backgroundView = UIImageView(image: image)
+            }
         }
+        print(indexPath.row)
         
-        // set the background image to a value
-//        if resource["resourceImage"].string != nil {
-//            let image = ApiHelper.getResourceImg(resource["resourceImage"])
-//            cell.backgroundView = image
-//        }
-        
-        
-        
-//        self.tile3.addTarget(self, action: "Action:", for:UIControlEvents.touchUpInside)
-        
-        
-        return cell
-    }
+        let label = UILabel(frame: CGRect(x:100, y:60, width:250, height:30))
+//        label.text = resource[""]labelTitles[indexPath.row]
+        label.font = UIFont(name: "Apple SD Gothic Neo", size: 22)
+        label.font = UIFont.boldSystemFont(ofSize: label.font.pointSize)
+//        cell.contentView.addSubview(label)
+            return cell
+        }
+    
+    
+    
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedRow = indexPath.row
