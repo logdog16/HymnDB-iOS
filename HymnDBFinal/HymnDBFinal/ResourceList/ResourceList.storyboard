@@ -25,6 +25,14 @@
             </objects>
             <point key="canvasLocation" x="-1884" y="-231"/>
         </scene>
+        <!--Main-->
+        <scene sceneID="7fv-zc-QTE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="6Th-ay-Iw4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4LC-VX-hEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-697" y="-670"/>
+        </scene>
         <!--Resource List Table View Controller-->
         <scene sceneID="eTr-Ja-HVa">
             <objects>
@@ -70,6 +78,11 @@
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="k2I-Ay-xA8">
                         <barButtonItem key="backBarButtonItem" title="Back" width="27" id="wWP-Fi-V3V">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="JmY-or-ecF">
+                            <connections>
+                                <segue destination="6Th-ay-Iw4" kind="show" id="lY3-6C-90D"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
