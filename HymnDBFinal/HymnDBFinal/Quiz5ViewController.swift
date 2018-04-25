@@ -22,7 +22,7 @@ class Quiz5ViewController: UITableViewController {
     @IBOutlet weak var previous: UIButton!
     
     @IBOutlet weak var nextButton: UIButton!
-    private var quizItems = Question5.getMockData()
+    private var quizItems = myClothing().getMockData()
     private var questionTitle = ["What does your pastor/priest wear when they preach"]
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -57,7 +57,7 @@ class Quiz5ViewController: UITableViewController {
         if indexPath.row < quizItems.count
         {
             let item = quizItems[indexPath.row]
-            item.done = !item.done
+            item.status_switch()
             
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }

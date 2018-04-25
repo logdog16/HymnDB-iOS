@@ -22,7 +22,7 @@ class Quiz4ViewController: UITableViewController {
     @IBOutlet weak var previous: UIButton!
     
     @IBOutlet weak var nextButton: UIButton!
-    private var quizItems = Question4.getMockData()
+    private var quizItems = myShape().getMockData()
     private var questionTitle = ["What best describes the shape of your worship?"]
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -57,7 +57,7 @@ class Quiz4ViewController: UITableViewController {
         if indexPath.row < quizItems.count
         {
             let item = quizItems[indexPath.row]
-            item.done = !item.done
+            item.status_switch()
             
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }

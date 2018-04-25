@@ -22,7 +22,7 @@ class Quiz2ViewController: UITableViewController {
     @IBOutlet weak var previous: UIButton!
     
     @IBOutlet weak var nextButton: UIButton!
-    private var quizItems = Question2.getMockData()
+    private var quizItems = myInstruments().getMockData()
     private var questionTitle = ["What instrumental leadership do you have available?"]
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -35,7 +35,7 @@ class Quiz2ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return quizItems.count
     }
-   
+    
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
         label.backgroundColor = UIColor.gray
@@ -58,7 +58,7 @@ class Quiz2ViewController: UITableViewController {
         if indexPath.row < quizItems.count
         {
             let item = quizItems[indexPath.row]
-            item.done = !item.done
+            item.status_switch()
             
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }

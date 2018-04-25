@@ -7,27 +7,50 @@
 //
 
 import Foundation
-class Question4
-{
-    var title: String
-    var done: Bool
-    
-    public init(title: String)
-    {
-        self.title = title
-        self.done = false
-    }
-}
 
-extension Question4
+var quizs4 = [Quiz]()
+
+/*class shape
+ {
+ var title: String
+ var done: Bool
+ 
+ public init(title: String)
+ {
+ self.title = title
+ self.done = false
+ }
+ public func status_switch(){
+ self.done = !self.done
+ }
+ }*/
+
+class myShape
 {
-    public class func getMockData() -> [Question4]
+    public init()
     {
-        return [
-            Question4(title: "5-Fold Pattern (Gathering, Word, Response, Table, Sending) - Roman Catholic Mass and similar structures"),
-            Question4(title: "4-Fold Pattern (Gathering, Word, Response, Sending) - Communion monthly or quarterly"),
-            Question4(title: "2-Fold Pattern (Praise & Teaching) - Most Praise and Worship services"),
-        ]
+        if(quizs4.count == 0)
+        {
+            
+            quizs4.append(Quiz(title: "5-Fold Pattern (Gathering, Word, Response, Table, Sending) - Roman Catholic Mass and similar structures"))
+            quizs4.append(Quiz(title: "4-Fold Pattern (Gathering, Word, Response, Sending) - Communion monthly or quarterly"))
+            quizs4.append(Quiz(title: "2-Fold Pattern (Praise & Teaching) - Most Praise and Worship services"))
+            
+        }
+    }
+    public func getMockData() -> [Quiz]
+    {
+        return quizs4
+    }
+    public func getCheckedData() -> [Quiz]
+    {
+        var myChecks = [Quiz]()
+        for e in quizs4{
+            if (e.done){
+                myChecks.append(e)
+            }
+        }
+        return myChecks
     }
 }
 

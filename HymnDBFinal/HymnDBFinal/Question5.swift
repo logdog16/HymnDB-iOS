@@ -7,30 +7,52 @@
 //
 
 import Foundation
-class Question5
+var quizs5 = [Quiz]()
+/*class clothing
+ {
+ var title: String
+ var done: Bool
+ 
+ public init(title: String)
+ {
+ self.title = title
+ self.done = false
+ }
+ public func status_switch(){
+ self.done = !self.done
+ }
+ }*/
+
+class myClothing
 {
-    var title: String
-    var done: Bool
-    
-    public init(title: String)
+    public init()
     {
-        self.title = title
-        self.done = false
+        if(quizs5.count == 0)
+        {
+            
+            quizs5.append(Quiz(title: "Vestements"))
+            quizs5.append(Quiz(title: "Robes, with or without stoles"))
+            quizs5.append(Quiz(title: "Business"))
+            quizs5.append(Quiz(title: "Casual"))
+            
+        }
+    }
+    public func getMockData() -> [Quiz]
+    {
+        return quizs5
+    }
+    public func getCheckedData() -> [Quiz]
+    {
+        var myChecks = [Quiz]()
+        for e in quizs5{
+            if (e.done){
+                myChecks.append(e)
+            }
+        }
+        return myChecks
     }
 }
 
-extension Question5
-{
-    public class func getMockData() -> [Question4]
-    {
-        return [
-            Question4(title: "Vestements"),
-            Question4(title: "Robes, with or without stoles"),
-            Question4(title: "Business"),
-            Question4(title: "Casual")
-        ]
-    }
-}
 
 
 

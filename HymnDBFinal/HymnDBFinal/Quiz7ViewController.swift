@@ -22,8 +22,27 @@ class Quiz7ViewController: UITableViewController {
     @IBOutlet weak var previous: UIButton!
     
     @IBOutlet weak var nextButton: UIButton!
-    private var quizItems = Question7.getMockData()
+    private var quizItems = mySize().getMockData()
     private var questionTitle = ["On average, how many people attend your weekly worship services"]
+    
+    
+    @IBAction func hit_result(_ sender: Any) {
+        
+        let storyboard = UIStoryboard(name: "ResourceList", bundle: nil).instantiateInitialViewController()
+        present(storyboard!, animated: true, completion: nil)
+        /*let vc = ResourceListTableViewController(nibName: "ResourceListTableViewController", bundle: nil)
+         vc.titleText = "dsf"
+         navigationController?.pushViewController(vc, animated: true)*/
+        var myDict: [String: [Quiz]] = [:]
+        myDict["category"] =  myCategories().getCheckedData()
+        myDict["instrument"] = myInstruments().getCheckedData()
+        myDict["ensemble"] = myEnsembles().getCheckedData()
+        myDict["shape"] = myShape().getCheckedData()
+        myDict["clothing"] = myClothing().getCheckedData()
+        myDict["ethnicitys"] = myEthnicities().getCheckedData()
+        myDict["size"] = mySize().getCheckedData()
+    }
+    
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -57,7 +76,7 @@ class Quiz7ViewController: UITableViewController {
         if indexPath.row < quizItems.count
         {
             let item = quizItems[indexPath.row]
-            item.done = !item.done
+            item.status_switch()
             
             tableView.reloadRows(at: [indexPath], with: .automatic)
         }

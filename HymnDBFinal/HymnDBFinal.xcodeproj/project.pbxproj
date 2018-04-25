@@ -16,6 +16,7 @@
 		1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D22064A4700090F9F6 /* Quiz.swift */; };
 		1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D42064A6670090F9F6 /* QuizViewController.swift */; };
 		165CDBDA208FD20E00CEFC89 /* ChosenResource.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CDBD9208FD20E00CEFC89 /* ChosenResource.storyboard */; };
+		165CDBDC2090D5F300CEFC89 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165CDBDB2090D5F300CEFC89 /* MaterialComponents.framework */; };
 		16971405206A92510056BDA0 /* Question2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16971404206A92510056BDA0 /* Question2.storyboard */; };
 		16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971406206A92960056BDA0 /* Quiz2ViewController.swift */; };
 		16971409206A92E90056BDA0 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971408206A92E90056BDA0 /* Question2.swift */; };
@@ -45,7 +46,6 @@
 		A26C53B12087C388002ACFC4 /* ResourceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26C53B02087C388002ACFC4 /* ResourceList.storyboard */; };
 		A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */; };
 		A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */; };
-		A26C53B82087CAAA002ACFC4 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53B72087CAAA002ACFC4 /* MaterialComponents.framework */; };
 		A26C53BA2088DADF002ACFC4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53B92088DADF002ACFC4 /* Alamofire.framework */; };
 		A26C53BC2088DADF002ACFC4 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53BB2088DADF002ACFC4 /* AlamofireImage.framework */; };
 		A26C53BE2088DADF002ACFC4 /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53BD2088DADF002ACFC4 /* IBAnimatable.framework */; };
@@ -91,6 +91,7 @@
 		1658F2D22064A4700090F9F6 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		1658F2D42064A6670090F9F6 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
 		165CDBD9208FD20E00CEFC89 /* ChosenResource.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChosenResource.storyboard; sourceTree = "<group>"; };
+		165CDBDB2090D5F300CEFC89 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16971404206A92510056BDA0 /* Question2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question2.storyboard; sourceTree = "<group>"; };
 		16971406206A92960056BDA0 /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
 		16971408206A92E90056BDA0 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
@@ -151,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165CDBDC2090D5F300CEFC89 /* MaterialComponents.framework in Frameworks */,
 				A26C53BA2088DADF002ACFC4 /* Alamofire.framework in Frameworks */,
 				A26C53BC2088DADF002ACFC4 /* AlamofireImage.framework in Frameworks */,
 				A26C53BE2088DADF002ACFC4 /* IBAnimatable.framework in Frameworks */,
@@ -162,7 +164,6 @@
 				A26C53CA2088DADF002ACFC4 /* MotionTransitioning.framework in Frameworks */,
 				A26C53CC2088DADF002ACFC4 /* PDFReader.framework in Frameworks */,
 				A26C53CE2088DADF002ACFC4 /* SwiftyJSON.framework in Frameworks */,
-				A26C53B82087CAAA002ACFC4 /* MaterialComponents.framework in Frameworks */,
 				AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +190,7 @@
 		13BA099C9D09DC9405E8DD36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				165CDBDB2090D5F300CEFC89 /* MaterialComponents.framework */,
 				A26C53B92088DADF002ACFC4 /* Alamofire.framework */,
 				A26C53BB2088DADF002ACFC4 /* AlamofireImage.framework */,
 				A26C53BD2088DADF002ACFC4 /* IBAnimatable.framework */,

@@ -15,7 +15,7 @@ class QuizViewController: UITableViewController {
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var home: UIButton!
     
-    private var quizItems = myQuiz().getMockData()
+    private var quizItems = myCategories().getMockData()
     private var questionTitle = ["Which types of song/hymn(s) has your congregation sung recently?"]
  
     override func numberOfSections(in tableView: UITableView) -> Int {
