@@ -17,12 +17,13 @@ import AlamofireImage
 class ResourceListTableViewController: UITableViewController {
     var resourceList:JSON = []
     @IBOutlet weak var home: UIButton!
+    
     var urls : NSArray = NSArray()
     var labelTitles : NSArray = ["Books", "Hymnals/Songbooks", "Thesis/Dissertation", "Articles", "Blogs",
                                  "Forum", "Newsletter/E-News", "Audio Tracks", "Podcast", "Video/Visuals",
                                  "Congregations", "Organizations", "Events", "Persons"]
     
-
+    
     
     var selectedRow = 0
     
@@ -30,7 +31,6 @@ class ResourceListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Browse Resources"
-        
         resourceList = [
             ["resourceTitle": "Books",
              "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/books-education-school-literature-48126.jpg",
