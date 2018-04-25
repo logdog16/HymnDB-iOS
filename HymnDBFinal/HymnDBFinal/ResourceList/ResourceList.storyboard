@@ -61,6 +61,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="jrv-fW-Asx" firstAttribute="trailing" secondItem="4dq-zC-0Xd" secondAttribute="trailingMargin" id="9gx-Xr-391"/>
                                                     <constraint firstItem="jrv-fW-Asx" firstAttribute="centerX" secondItem="mo5-wc-hXh" secondAttribute="centerX" id="BB4-1y-eFX"/>
@@ -77,7 +80,9 @@
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tUl-8G-A7X" customClass="AnimatableImageView" customModule="IBAnimatable">
                                                         <rect key="frame" x="0.0" y="0.0" width="344" height="139"/>
-                                                        <accessibility key="accessibilityConfiguration" identifier="ResourceImg"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="ResourceImg">
+                                                            <accessibilityTraits key="traits" image="YES"/>
+                                                        </accessibility>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hymnals/Songbooks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdX-ux-VOD" customClass="AnimatableLabel" customModule="IBAnimatable">
                                                         <rect key="frame" x="8" y="147" width="328" height="35"/>
@@ -90,6 +95,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="tUl-8G-A7X" firstAttribute="top" secondItem="qui-zk-7ZU" secondAttribute="top" id="7ck-1i-tV9"/>
                                                     <constraint firstItem="pdX-ux-VOD" firstAttribute="leading" secondItem="qui-zk-7ZU" secondAttribute="leadingMargin" id="8MB-CL-nrp"/>
@@ -118,6 +126,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="5Dz-Ql-jzz" firstAttribute="leading" secondItem="7Aa-8M-b1R" secondAttribute="leading" id="V0K-9S-WoE"/>
                                                     <constraint firstItem="EAe-rG-YOi" firstAttribute="top" secondItem="5Dz-Ql-jzz" secondAttribute="bottom" constant="8" symbolic="YES" id="jgU-GT-0ba"/>
@@ -148,6 +159,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="nr9-Ci-jUa" secondAttribute="trailing" id="Hj5-k5-gXE"/>
                                                     <constraint firstItem="nr9-Ci-jUa" firstAttribute="leading" secondItem="dFA-Rf-AXY" secondAttribute="leading" id="Mpy-OP-SiE"/>
@@ -176,6 +190,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="Pke-hD-bcV" firstAttribute="top" secondItem="Tuf-NN-vl0" secondAttribute="bottom" constant="8" symbolic="YES" id="1Vt-lC-99H"/>
                                                     <constraint firstAttribute="trailing" secondItem="Tuf-NN-vl0" secondAttribute="trailing" id="Bqg-st-yOk"/>
@@ -204,6 +221,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="k4k-Kx-Xb2" firstAttribute="centerX" secondItem="kWP-QD-GBj" secondAttribute="centerX" id="Kte-fg-pAn"/>
                                                     <constraint firstItem="kWP-QD-GBj" firstAttribute="bottom" secondItem="4U5-jq-fMW" secondAttribute="bottomMargin" id="PLX-LE-Wf6"/>
@@ -232,6 +252,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="3b0-ht-mFh" firstAttribute="bottom" secondItem="Hpg-ew-W39" secondAttribute="bottomMargin" id="WhM-fx-Tkw"/>
                                                     <constraint firstItem="9Vf-cT-dMl" firstAttribute="leading" secondItem="Hpg-ew-W39" secondAttribute="leading" id="eB0-pQ-tHi"/>
@@ -260,6 +283,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="7E8-Qn-k17" firstAttribute="bottom" secondItem="n8I-Be-ft5" secondAttribute="bottomMargin" id="9EG-i9-cOF"/>
                                                     <constraint firstItem="aDD-Mp-bXV" firstAttribute="top" secondItem="n8I-Be-ft5" secondAttribute="top" id="Cd2-RS-5Jo"/>
@@ -288,6 +314,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="9nU-Ma-CR4" secondAttribute="trailing" id="KBG-4R-5Zk"/>
                                                     <constraint firstItem="ODG-lN-Dp4" firstAttribute="leading" secondItem="uh5-ar-Ge8" secondAttribute="leadingMargin" id="OsS-9b-92K"/>
@@ -316,6 +345,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="hTs-1p-Gzy" firstAttribute="bottom" secondItem="Gdb-uM-vYe" secondAttribute="bottomMargin" id="0ET-Ql-Po9"/>
                                                     <constraint firstItem="XVB-KQ-qbQ" firstAttribute="top" secondItem="Gdb-uM-vYe" secondAttribute="top" id="1Fx-lH-nxa"/>
@@ -344,6 +376,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="16J-k8-acU" firstAttribute="leading" secondItem="K3q-ah-t2j" secondAttribute="leadingMargin" id="7yU-aW-BkH"/>
                                                     <constraint firstItem="16J-k8-acU" firstAttribute="bottom" secondItem="K3q-ah-t2j" secondAttribute="bottomMargin" id="Kcp-Y3-maB"/>
@@ -372,6 +407,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="TzQ-W0-57t" firstAttribute="top" secondItem="H6O-DM-Zg6" secondAttribute="bottom" constant="8" symbolic="YES" id="3So-JW-Tmo"/>
                                                     <constraint firstItem="TzQ-W0-57t" firstAttribute="bottom" secondItem="exs-zZ-uaI" secondAttribute="bottomMargin" id="H8c-En-Psw"/>
@@ -400,6 +438,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="Sfb-K0-rWS" firstAttribute="centerX" secondItem="gz5-eH-jcC" secondAttribute="centerX" id="Bsw-qL-nS8"/>
                                                     <constraint firstAttribute="trailing" secondItem="Sfb-K0-rWS" secondAttribute="trailing" id="Vqk-aR-hiM"/>
@@ -428,6 +469,9 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" button="YES"/>
+                                                </accessibility>
                                                 <constraints>
                                                     <constraint firstItem="MQQ-ex-9wT" firstAttribute="centerX" secondItem="MGg-0q-kze" secondAttribute="centerX" id="4Ya-lY-YUL"/>
                                                     <constraint firstItem="MQQ-ex-9wT" firstAttribute="leading" secondItem="S58-fJ-eHr" secondAttribute="leading" id="MpL-Nv-C23"/>
