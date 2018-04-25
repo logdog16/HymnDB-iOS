@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="-911.20000000000005" y="53.523238380809602"/>
         </scene>
-        <!--chosenResource-->
+        <!--ResourceList-->
         <scene sceneID="ZGO-Y7-Uae">
             <objects>
-                <viewControllerPlaceholder storyboardName="ChosenResource" referencedIdentifier="chosenResource" id="aMJ-C1-4bb" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="ResourceList" id="aMJ-C1-4bb" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9i-bD-4mr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-428" y="197"/>

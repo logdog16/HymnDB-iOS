@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MaterialComponents
 
 class ResourceListTableViewCell: UITableViewCell {
 

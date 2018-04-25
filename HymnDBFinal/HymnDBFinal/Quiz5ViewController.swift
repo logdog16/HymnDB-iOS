@@ -89,20 +89,12 @@ class Quiz5ViewController: UITableViewController {
         nextButton.layer.borderWidth = 1.0;
         nextButton.backgroundColor = UIColor.white
         nextButton.layer.borderColor = UIColor(white: 0.5, alpha: 0.7).cgColor
-        nextButton.layer.cornerRadius = 0
-        nextButton.layer.shadowOffset = CGSize.zero
-        nextButton.layer.shadowColor = UIColor.black.cgColor
-        nextButton.layer.shadowRadius = 3
-        nextButton.layer.shadowOpacity = 0.8
+        nextButton.layer.cornerRadius = 10
         
         previous.layer.borderWidth = 1.0;
         previous.backgroundColor = UIColor.white
         previous.layer.borderColor = UIColor(white: 0.5, alpha: 0.7).cgColor
-        previous.layer.cornerRadius = 0
-        previous.layer.shadowOffset = CGSize.zero
-        previous.layer.shadowColor = UIColor.black.cgColor
-        previous.layer.shadowRadius = 3
-        previous.layer.shadowOpacity = 0.8
+        previous.layer.cornerRadius = 10
         
     }
     
