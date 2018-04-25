@@ -72,14 +72,14 @@ class ResourceListViewController: UIViewController {
         var urlTo = "http://ec2-34-209-251-224.us-west-2.compute.amazonaws.com:3000/all/"
         
         super.viewDidLoad()
-        let todoEndpoint: String = "http://ec2-34-209-251-224.us-west-2.compute.amazonaws.com:3000/all/Book"
-        Alamofire.request(todoEndpoint)
-            .responseString { response in
-                // print response as string for debugging, testing, etc.
-                print(response.result.value)
-                print(response.result.error)
-        }
-        
+//        let todoEndpoint: String = "http://ec2-34-209-251-224.us-west-2.compute.amazonaws.com:3000/all/Book"
+//        Alamofire.request(todoEndpoint)
+//            .responseString { response in
+//                // print response as string for debugging, testing, etc.
+//                print(response.result.value)
+//                print(response.result.error)
+//        }
+//        
         self.title = "Browse Resources"
         
         resourceList = [

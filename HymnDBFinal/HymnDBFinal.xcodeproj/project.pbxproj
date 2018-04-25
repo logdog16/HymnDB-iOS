@@ -15,6 +15,7 @@
 		164EF115203D08EB000B9C30 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF114203D08EB000B9C30 /* ResourceViewController.swift */; };
 		1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D22064A4700090F9F6 /* Quiz.swift */; };
 		1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D42064A6670090F9F6 /* QuizViewController.swift */; };
+		165CDC0020910F4F00CEFC89 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CDBFF20910F4F00CEFC89 /* BookViewController.swift */; };
 		16971405206A92510056BDA0 /* Question2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16971404206A92510056BDA0 /* Question2.storyboard */; };
 		16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971406206A92960056BDA0 /* Quiz2ViewController.swift */; };
 		16971409206A92E90056BDA0 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971408206A92E90056BDA0 /* Question2.swift */; };
@@ -95,6 +96,7 @@
 		164EF114203D08EB000B9C30 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourceViewController.swift; path = ../ResourceViewController.swift; sourceTree = "<group>"; };
 		1658F2D22064A4700090F9F6 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		1658F2D42064A6670090F9F6 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
+		165CDBFF20910F4F00CEFC89 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		16971404206A92510056BDA0 /* Question2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question2.storyboard; sourceTree = "<group>"; };
 		16971406206A92960056BDA0 /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
 		16971408206A92E90056BDA0 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				A26C53B02087C388002ACFC4 /* ResourceList.storyboard */,
 				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
 				A2E6CE182090C8BA005E988C /* ResourceListViewController.swift */,
+				165CDBFF20910F4F00CEFC89 /* BookViewController.swift */,
 			);
 			path = ResourceList;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				1697141B206A995C0056BDA0 /* Quiz7ViewController.swift in Sources */,
 				A25BD62C2087B54D00C8F98B /* HomeViewController.swift in Sources */,
 				1697141D206A9A2F0056BDA0 /* Question5.swift in Sources */,
+				165CDC0020910F4F00CEFC89 /* BookViewController.swift in Sources */,
 				A25BD64B2087BD7D00C8F98B /* ApiHelper.swift in Sources */,
 				16971417206A993B0056BDA0 /* Quiz5ViewController.swift in Sources */,
 				A2E6CE192090C8BA005E988C /* ResourceListViewController.swift in Sources */,
