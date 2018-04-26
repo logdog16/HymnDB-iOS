@@ -7,30 +7,53 @@
 //
 
 import Foundation
-class Question3
-{
-    var title: String
-    var done: Bool
-    
-    public init(title: String)
-    {
-        self.title = title
-        self.done = false
-    }
-}
 
-extension Question3
+var quizs3 = [Quiz]()
+
+/*class ensemble
+ {
+ var title: String
+ var done: Bool
+ 
+ public init(title: String)
+ {
+ self.title = title
+ self.done = false
+ }
+ public func status_switch(){
+ self.done = !self.done
+ }
+ }
+ */
+
+class myEnsembles
 {
-    public class func getMockData() -> [Question3]
+    public init()
     {
-        return [
-            Question3(title: "Choir"),
-            Question3(title: "Cantor"),
-            Question3(title: "Song-Enlivener"),
-            Question3(title: "Lead Singer from Band (solo)"),
-            Question3(title: "Lead Singer from Band with Other Vocalists"),
+        if(quizs3.count == 0)
+        {
             
-        ]
+            quizs3.append(Quiz(title: "Choir"))
+            quizs3.append(Quiz(title: "Cantor)"))
+            quizs3.append(Quiz(title: "Song-Enlivener"))
+            quizs3.append(Quiz(title: "Lead Singer from Band (solo)"))
+            quizs3.append(Quiz(title: "Lead Singer from Band with Other Vocalists"))
+            
+        }
+    }
+    public func getMockData() -> [Quiz]
+    {
+        return quizs3
+    }
+    public func getCheckedData() -> [Quiz]
+    {
+        var myChecks = [Quiz]()
+        for e in quizs3{
+            if (e.done){
+                myChecks.append(e)
+            }
+        }
+        return myChecks
     }
 }
 
