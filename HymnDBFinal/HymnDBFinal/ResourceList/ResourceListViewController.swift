@@ -43,13 +43,7 @@ class ResourceListViewController: UIViewController {
     
     var textLabel = ""
     
-    
-//    func selectResourceButton() {
-//        let size = CGSize(width:55, height: 55)
-//        let selectedResource = UIImage.ionicon(with: .checkmarkRound, textColor: UIColor.white, size: CGSize(width: 25, height: 25))
-//       // selectButton.setImage( selectResource, for: UIControlState.normal)
-//    }
-//
+
     
     
     func setResourceListPage(_ imgView: AnimatableImageView, _ imgID: Int) {
@@ -134,12 +128,10 @@ class ResourceListViewController: UIViewController {
         setResourceListPage(eventsView, 12)
         setResourceListPage(personsView, 13)
         
+        
     }
     
-//    override func loadContent{
-//
-//
-//    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
