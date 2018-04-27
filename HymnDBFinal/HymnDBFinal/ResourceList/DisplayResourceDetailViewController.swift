@@ -32,5 +32,18 @@ class DisplayResourceDetailViewController: UIViewController
         
         
     }
+    @IBAction func likeButtonPressed(_ sender: Any)
+    {
+        
+    }
+    @IBAction func visitButtonPressed(_ sender: Any)
+    {
+        if let link = URL(string: toDisplay["url"].string!)
+        {
+            UIApplication.shared.open(link)
+        }
+    }
+    
+    
     
 }

@@ -653,6 +653,9 @@
                                     <constraint firstAttribute="width" constant="98" id="bZp-OP-XYd"/>
                                 </constraints>
                                 <state key="normal" title="Visit Resource"/>
+                                <connections>
+                                    <action selector="visitButtonPressed:" destination="CiE-RR-Bqg" eventType="touchUpInside" id="TSl-oi-cND"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOE-Vu-7eX">
                                 <rect key="frame" x="284" y="326.5" width="59" height="21"/>
@@ -663,6 +666,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJZ-qv-NJr">
                                 <rect key="frame" x="297" y="357.5" width="33" height="30"/>
                                 <state key="normal" title="Like!"/>
+                                <connections>
+                                    <action selector="likeButtonPressed:" destination="CiE-RR-Bqg" eventType="touchUpInside" id="P7T-uX-iih"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
