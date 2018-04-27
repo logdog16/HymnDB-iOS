@@ -17,6 +17,7 @@ import AlamofireImage
 class DisplayResourceTableViewController: UITableViewController {
     var resourceList:JSON = []
     
+    var category:Int! = 0
 
     
     override func viewDidLoad() {
@@ -41,6 +42,34 @@ class DisplayResourceTableViewController: UITableViewController {
         super.viewDidLoad();
 
 }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        super.prepare(for: segue, sender: sender)
+        
+        switch(segue.identifier ?? "") {
+            
+
+        case "showDetail":
+            guard let DetailViewController = segue.destination as? DisplayResourceDetailViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedResourceCell = sender as? DisplayResourceTableCell else {
+                fatalError("Unexpected sender: \(sender ?? "NOSENDER")")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedResourceCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedResource = self.resourceList[indexPath.row]
+            DetailViewController.toDisplay = selectedResource
+            
+        default: break
+            
+        }
+    }
     
 }
 

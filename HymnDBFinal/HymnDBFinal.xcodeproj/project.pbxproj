@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02AAD4242092F8A700C72EF3 /* DisplayResourceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */; };
+		02AAD426209377F900C72EF3 /* DisplayResourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */; };
 		02C421F92092AB2500B57786 /* DisplayResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */; };
 		164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF100203CF37E000B9C30 /* AppDelegate.swift */; };
 		164EF103203CF37E000B9C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF102203CF37E000B9C30 /* ViewController.swift */; };
@@ -88,6 +89,7 @@
 
 /* Begin PBXFileReference section */
 		02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceTableCell.swift; sourceTree = "<group>"; };
+		02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceDetailViewController.swift; sourceTree = "<group>"; };
 		02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceTableViewController.swift; sourceTree = "<group>"; };
 		085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,6 +322,7 @@
 			children = (
 				02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */,
 				02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */,
+				02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */,
 				A26C53B02087C388002ACFC4 /* ResourceList.storyboard */,
 				A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */,
 				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
@@ -637,6 +640,7 @@
 				A2C521202090BDBE007D9FC7 /* ResourceTableViewCell.swift in Sources */,
 				1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */,
 				16971409206A92E90056BDA0 /* Question2.swift in Sources */,
+				02AAD426209377F900C72EF3 /* DisplayResourceDetailViewController.swift in Sources */,
 				16971419206A994B0056BDA0 /* Quiz6ViewController.swift in Sources */,
 				1697141F206A9A370056BDA0 /* Question6.swift in Sources */,
 				A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */,
