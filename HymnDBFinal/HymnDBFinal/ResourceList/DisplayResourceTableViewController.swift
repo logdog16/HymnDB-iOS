@@ -47,10 +47,13 @@ class DisplayResourceTableViewController: UITableViewController {
 extension DisplayResourceTableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? DisplayResourceTableCell else {
+            fatalError("The dequeued cell is not an instance of DisplayResourceTableCell.")
+        }
         
-        cell.textLabel?.text = self.resourceList[indexPath.row]["title"].string
-        print(resourceList[indexPath.row]["title"].string)
+        
+        cell.Title.text = self.resourceList[indexPath.row]["title"].string
+        cell.Description.text = "By: " + self.resourceList[indexPath.row]["author"].string!
         return cell
     }
     

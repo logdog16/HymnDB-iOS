@@ -566,13 +566,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="nS9-uD-lac">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="nS9-uD-lac" customClass="DisplayResourceTableCell" customModule="HymnDBFinal" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nS9-uD-lac" id="EpL-he-JAP">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtE-Do-eAk">
+                                            <rect key="frame" x="16" y="11" width="343" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="tcH-q0-Zyv"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7n-Rl-QC7">
+                                            <rect key="frame" x="16" y="34" width="343" height="45"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="T7n-Rl-QC7" firstAttribute="top" secondItem="FtE-Do-eAk" secondAttribute="bottom" constant="5" id="DJu-Fh-ETd"/>
+                                        <constraint firstItem="FtE-Do-eAk" firstAttribute="leading" secondItem="EpL-he-JAP" secondAttribute="leadingMargin" id="Dum-vr-rsk"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="T7n-Rl-QC7" secondAttribute="trailing" id="M1G-jO-Nfy"/>
+                                        <constraint firstItem="T7n-Rl-QC7" firstAttribute="leading" secondItem="EpL-he-JAP" secondAttribute="leadingMargin" id="VTQ-K2-3O7"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="T7n-Rl-QC7" secondAttribute="bottom" id="c6P-f1-agF"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="FtE-Do-eAk" secondAttribute="trailing" id="cjh-Cl-4pG"/>
+                                        <constraint firstItem="FtE-Do-eAk" firstAttribute="top" secondItem="EpL-he-JAP" secondAttribute="topMargin" id="g4T-cB-57Q"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Description" destination="T7n-Rl-QC7" id="mDl-Sy-r6M"/>
+                                    <outlet property="Title" destination="FtE-Do-eAk" id="n2D-us-JIz"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
