@@ -24,13 +24,12 @@ class DisplayResourceTableViewController: UITableViewController {
         self.tableView.dataSource = self
         self.tableView.delegate = self
 
-        let url = "http://ec2-34-209-251-224.us-west-2.compute.amazonaws.com:3000/all/Book"
+        let url = "http://ec2-34-209-251-224.us-west-2.compute.amazonaws.com:3000/resource/approved/type/book"
         
         Alamofire.request(url, method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 self.resourceList = JSON(value)
-                self.resourceList = JSON(self.resourceList["resources"])
                 print(self.resourceList.count)
                 self.tableView.reloadData()
             case .failure(let error):
