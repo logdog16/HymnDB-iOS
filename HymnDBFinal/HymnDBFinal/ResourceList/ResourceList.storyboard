@@ -63,7 +63,7 @@
                                                         <rect key="frame" x="8" y="0.0" width="328" height="139"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <connections>
-                                                            <segue destination="SBW-cT-CtU" kind="show" id="Wtv-J3-m27"/>
+                                                            <segue destination="NsX-Qk-3ge" kind="show" id="lfz-iZ-3MJ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -557,6 +557,34 @@
             </objects>
             <point key="canvasLocation" x="-812" y="-232.53373313343329"/>
         </scene>
+        <!--Display Resource Table View Controller-->
+        <scene sceneID="Cyw-Sc-g14">
+            <objects>
+                <tableViewController id="NsX-Qk-3ge" customClass="DisplayResourceTableViewController" customModule="HymnDBFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4vo-We-BIR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nS9-uD-lac">
+                                <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nS9-uD-lac" id="EpL-he-JAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NsX-Qk-3ge" id="78Q-WW-VVg"/>
+                            <outlet property="delegate" destination="NsX-Qk-3ge" id="RUs-Zj-pqo"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huU-7B-JlO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="-327"/>
+        </scene>
         <!--Book View Controller-->
         <scene sceneID="B7Z-NA-TO8">
             <objects>
@@ -594,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jit-DN-fJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-42.399999999999999" y="-29.23538230884558"/>
+            <point key="canvasLocation" x="154" y="386"/>
         </scene>
         <!--Main-->
         <scene sceneID="qL9-z1-wyp">

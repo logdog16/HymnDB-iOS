@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C421F92092AB2500B57786 /* DisplayResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */; };
 		164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF100203CF37E000B9C30 /* AppDelegate.swift */; };
 		164EF103203CF37E000B9C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF102203CF37E000B9C30 /* ViewController.swift */; };
 		164EF106203CF37E000B9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164EF104203CF37E000B9C30 /* Main.storyboard */; };
@@ -85,6 +86,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceTableViewController.swift; sourceTree = "<group>"; };
 		085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164EF100203CF37E000B9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 			children = (
 				A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */,
 				A26C53B02087C388002ACFC4 /* ResourceList.storyboard */,
+				02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */,
 				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
 				A2E6CE182090C8BA005E988C /* ResourceListViewController.swift */,
 				165CDBFF20910F4F00CEFC89 /* BookViewController.swift */,
@@ -636,6 +639,7 @@
 				A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */,
 				16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */,
 				16971421206A9A500056BDA0 /* Question7.swift in Sources */,
+				02C421F92092AB2500B57786 /* DisplayResourceTableViewController.swift in Sources */,
 				A2E6CE142090BFB0005E988C /* SelectedResourceTableViewController.swift in Sources */,
 				16971411206A96AF0056BDA0 /* Quiz4ViewController.swift in Sources */,
 				1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */,
