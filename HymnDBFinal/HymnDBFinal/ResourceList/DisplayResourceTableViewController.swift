@@ -24,6 +24,32 @@ class DisplayResourceTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         
+        switch category{
+        case 0:
+            url = url + "book"
+        case 1:
+            url = url + "hymnal%2Fsongbook"
+        case 2:
+            url = url + "thesis%2Fdissertation"
+        case 3:
+            url = url + "article(s)"
+        case 4:
+            url = url + "blog"
+        case 5:
+            url = url + "forum"
+        case 6:
+            url = url + "Newsletter%2FE-News"
+        case 7:
+            url = url + "Audio%20Track(s)"
+        case 8:
+            url = url + "podcast"
+        case 9:
+            url = url + "Video%2FVisual(s)"
+        default:
+            print("Category out of range")
+            
+        }
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
 

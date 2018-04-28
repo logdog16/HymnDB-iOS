@@ -64,7 +64,6 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <connections>
                                                             <action selector="booksButton:" destination="irZ-t3-A28" eventType="touchUpInside" id="EHX-rJ-raK"/>
-                                                            <segue destination="NsX-Qk-3ge" kind="show" identifier="showList" id="lfz-iZ-3MJ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -643,6 +642,7 @@
                         <outlet property="podcastsView" destination="9nU-Ma-CR4" id="0HG-5b-Z3P"/>
                         <outlet property="thesesView" destination="5Dz-Ql-jzz" id="O1a-QH-buw"/>
                         <outlet property="videosView" destination="XVB-KQ-qbQ" id="yDt-cJ-FSL"/>
+                        <segue destination="NsX-Qk-3ge" kind="show" identifier="showList" id="YOI-FP-6hT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOv-fA-e4d" userLabel="First Responder" sceneMemberID="firstResponder"/>

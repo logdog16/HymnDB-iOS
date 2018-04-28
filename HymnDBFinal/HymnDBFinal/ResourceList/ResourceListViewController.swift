@@ -44,72 +44,88 @@ class ResourceListViewController: UIViewController {
     //Buttons over images
     @IBAction func booksButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func hymnalsButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func thesesButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func articlesButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func blogsButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func forumButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func newsletterButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func audioButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func podcastButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func videosButton(_ sender: Any)
     {
-        
+        performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func congregationsButton(_ sender: Any)
     {
-        
+        //Due to the fact we can't show congregations/orgs/events/people as we do every other resource, handle it for now
+        //until we can fix it, add a handler for these resources, or delete the buttons
+        let alert = UIAlertController(title: "Coming soon!", message: "Congregation information coming soon, please use the web version at this time.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func orginizationsButton(_ sender: Any)
     {
-        
+        //Due to the fact we can't show congregations/orgs/events/people as we do every other resource, handle it for now
+        //until we can fix it, add a handler for these resources, or delete the buttons
+        let alert = UIAlertController(title: "Coming soon!", message: "Orginization information coming soon, please use the web version at this time.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func eventsButton(_ sender: Any)
     {
-        
+        //Due to the fact we can't show congregations/orgs/events/people as we do every other resource, handle it for now
+        //until we can fix it, add a handler for these resources, or delete the buttons
+        let alert = UIAlertController(title: "Coming soon!", message: "Event information coming soon, please use the web version at this time.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func personsButton(_ sender: Any)
     {
-        
+        //Due to the fact we can't show congregations/orgs/events/people as we do every other resource, handle it for now
+        //until we can fix it, add a handler for these resources, or delete the buttons
+        let alert = UIAlertController(title: "Coming soon!", message: "People information coming soon, please use the web version at this time.", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     
@@ -196,6 +212,28 @@ class ResourceListViewController: UIViewController {
         
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        super.prepare(for: segue, sender: sender)
+        
+        switch(segue.identifier ?? "") {
+            
+            
+        case "showList":
+            guard let listView = segue.destination as? DisplayResourceTableViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            
+            //let selectedResource = self.resourceList[indexPath.row]
+            listView.category = 0
+            
+        default: break
+            
+        }
+    }
+
     
 
 
