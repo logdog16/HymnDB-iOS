@@ -41,6 +41,79 @@ class ResourceListViewController: UIViewController {
     
     @IBOutlet weak var selectButton: AnimatableButton!
     
+    //Buttons over images
+    @IBAction func booksButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func hymnalsButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func thesesButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func articlesButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func blogsButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func forumButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func newsletterButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func audioButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func podcastButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func videosButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func congregationsButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func orginizationsButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func eventsButton(_ sender: Any)
+    {
+        
+    }
+    
+    @IBAction func personsButton(_ sender: Any)
+    {
+        
+    }
+    
+    
+    
     var textLabel = ""
     
 
@@ -48,18 +121,11 @@ class ResourceListViewController: UIViewController {
     
     func setResourceListPage(_ imgView: AnimatableImageView, _ imgID: Int) {
             if imgView.image == nil{
-                //Alamofire.request(resourceList[imgID]["resourceImage"].string!, method: .get).responseImage { response in
-                    //guard let image = response.result.value else {
-                        // Handle error
-                      //  return
-                    //}
-                    //cell.backgroundView = UIImageView(image: image)
-                    // cell.resourceButton.imageView = UIImageView(image: image)
-                
+
                     let image = UIImage(named: resourceList[imgID]["resourceImage"].string!)
                     imgView.image = image
                 }
-        //}
+
     }
     
     
