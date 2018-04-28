@@ -12,7 +12,7 @@ var quizs = [Quiz]()
 
 class Quiz
 {
-
+    
     var title: String
     var done: Bool
     
@@ -26,13 +26,13 @@ class Quiz
     }
 }
 
-class myQuiz
+class myCategories
 {
     public init()
     {
         if(quizs.count == 0)
         {
-        
+            
             quizs.append(Quiz(title: "A hymn written prior to 1970"))
             quizs.append(Quiz(title: "Newly composed hymn (within the last 10 years)"))
             quizs.append(Quiz(title: "A song written by our own artist/leader"))
@@ -45,7 +45,17 @@ class myQuiz
         }
     }
     public func getMockData() -> [Quiz]
-            {
-                return quizs
-                }
+    {
+        return quizs
+    }
+    public func getCheckedData() -> [Quiz]
+    {
+        var myChecks = [Quiz]()
+        for e in quizs{
+            if (e.done){
+                myChecks.append(e)
+            }
+        }
+        return myChecks
+    }
 }

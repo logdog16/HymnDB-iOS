@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02AAD4242092F8A700C72EF3 /* DisplayResourceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */; };
+		02AAD426209377F900C72EF3 /* DisplayResourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */; };
+		02C421F92092AB2500B57786 /* DisplayResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */; };
 		164EF101203CF37E000B9C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF100203CF37E000B9C30 /* AppDelegate.swift */; };
 		164EF103203CF37E000B9C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF102203CF37E000B9C30 /* ViewController.swift */; };
 		164EF106203CF37E000B9C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164EF104203CF37E000B9C30 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		164EF115203D08EB000B9C30 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EF114203D08EB000B9C30 /* ResourceViewController.swift */; };
 		1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D22064A4700090F9F6 /* Quiz.swift */; };
 		1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658F2D42064A6670090F9F6 /* QuizViewController.swift */; };
+		165CDC0020910F4F00CEFC89 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CDBFF20910F4F00CEFC89 /* BookViewController.swift */; };
 		16971405206A92510056BDA0 /* Question2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16971404206A92510056BDA0 /* Question2.storyboard */; };
 		16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971406206A92960056BDA0 /* Quiz2ViewController.swift */; };
 		16971409206A92E90056BDA0 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16971408206A92E90056BDA0 /* Question2.swift */; };
@@ -56,6 +60,12 @@
 		A26C53CA2088DADF002ACFC4 /* MotionTransitioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53C92088DADF002ACFC4 /* MotionTransitioning.framework */; };
 		A26C53CC2088DADF002ACFC4 /* PDFReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CB2088DADF002ACFC4 /* PDFReader.framework */; };
 		A26C53CE2088DADF002ACFC4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */; };
+		A2C521202090BDBE007D9FC7 /* ResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5211F2090BDBE007D9FC7 /* ResourceTableViewCell.swift */; };
+		A2C521222090BDD6007D9FC7 /* ResourceView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C521212090BDD6007D9FC7 /* ResourceView.storyboard */; };
+		A2E6CE122090BF88005E988C /* SelectedResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E6CE112090BF88005E988C /* SelectedResourceTableViewCell.swift */; };
+		A2E6CE142090BFB0005E988C /* SelectedResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E6CE132090BFB0005E988C /* SelectedResourceTableViewController.swift */; };
+		A2E6CE162090BFC0005E988C /* SelectedResource.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E6CE152090BFC0005E988C /* SelectedResource.storyboard */; };
+		A2E6CE192090C8BA005E988C /* ResourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E6CE182090C8BA005E988C /* ResourceListViewController.swift */; };
 		A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */; };
 		AA32FAFE255B93DD0BD05D18 /* Pods_HymnDBFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58170751AB524F53D48B5848 /* Pods_HymnDBFinal.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +88,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceTableCell.swift; sourceTree = "<group>"; };
+		02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceDetailViewController.swift; sourceTree = "<group>"; };
+		02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResourceTableViewController.swift; sourceTree = "<group>"; };
 		085566154B6F6E139186428A /* Pods-HymnDBFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinalUITests/Pods-HymnDBFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		164EF0FD203CF37E000B9C30 /* HymnDBFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HymnDBFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164EF100203CF37E000B9C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +102,7 @@
 		164EF114203D08EB000B9C30 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResourceViewController.swift; path = ../ResourceViewController.swift; sourceTree = "<group>"; };
 		1658F2D22064A4700090F9F6 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		1658F2D42064A6670090F9F6 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
+		165CDBFF20910F4F00CEFC89 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		16971404206A92510056BDA0 /* Question2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question2.storyboard; sourceTree = "<group>"; };
 		16971406206A92960056BDA0 /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
 		16971408206A92E90056BDA0 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
@@ -137,6 +151,12 @@
 		A26C53CB2088DADF002ACFC4 /* PDFReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PDFReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C53CD2088DADF002ACFC4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C53D0208E583C002ACFC4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = /Users/estephanian/Desktop/HymnDB/HymnDBFinal/HymnDBFinal/Extensions.swift; sourceTree = "<absolute>"; };
+		A2C5211F2090BDBE007D9FC7 /* ResourceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewCell.swift; sourceTree = "<group>"; };
+		A2C521212090BDD6007D9FC7 /* ResourceView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourceView.storyboard; sourceTree = "<group>"; };
+		A2E6CE112090BF88005E988C /* SelectedResourceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedResourceTableViewCell.swift; sourceTree = "<group>"; };
+		A2E6CE132090BFB0005E988C /* SelectedResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedResourceTableViewController.swift; sourceTree = "<group>"; };
+		A2E6CE152090BFC0005E988C /* SelectedResource.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectedResource.storyboard; sourceTree = "<group>"; };
+		A2E6CE182090C8BA005E988C /* ResourceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListViewController.swift; sourceTree = "<group>"; };
 		A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewController.swift; sourceTree = "<group>"; };
 		D0311F60C0CF299BFDC9B9F1 /* Pods_HymnDBFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HymnDBFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HymnDBFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HymnDBFinal/Pods-HymnDBFinal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -232,9 +252,10 @@
 			isa = PBXGroup;
 			children = (
 				A26C53D0208E583C002ACFC4 /* Extensions.swift */,
-				A2F9062A207D170B00AA9695 /* Quiz */,
 				164EF100203CF37E000B9C30 /* AppDelegate.swift */,
-				A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */,
+				A2E6CE172090BFCC005E988C /* SelectedResource */,
+				A2F9062A207D170B00AA9695 /* Quiz */,
+				A2C521232090BDDD007D9FC7 /* ResourceView */,
 				A26C53CF208E5757002ACFC4 /* ResourceList */,
 				164EF102203CF37E000B9C30 /* ViewController.swift */,
 				164EF114203D08EB000B9C30 /* ResourceViewController.swift */,
@@ -299,11 +320,36 @@
 		A26C53CF208E5757002ACFC4 /* ResourceList */ = {
 			isa = PBXGroup;
 			children = (
-				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
-				A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */,
+				02C421F82092AB2500B57786 /* DisplayResourceTableViewController.swift */,
+				02AAD4232092F8A700C72EF3 /* DisplayResourceTableCell.swift */,
+				02AAD425209377F900C72EF3 /* DisplayResourceDetailViewController.swift */,
 				A26C53B02087C388002ACFC4 /* ResourceList.storyboard */,
+				A26C53B22087C39F002ACFC4 /* ResoureListTableViewController.swift */,
+				A26C53B42087C3B3002ACFC4 /* ResourceListTableViewCell.swift */,
+				A2E6CE182090C8BA005E988C /* ResourceListViewController.swift */,
+				165CDBFF20910F4F00CEFC89 /* BookViewController.swift */,
 			);
 			path = ResourceList;
+			sourceTree = "<group>";
+		};
+		A2C521232090BDDD007D9FC7 /* ResourceView */ = {
+			isa = PBXGroup;
+			children = (
+				A2F9062F207D245F00AA9695 /* ResourceTableViewController.swift */,
+				A2C521212090BDD6007D9FC7 /* ResourceView.storyboard */,
+				A2C5211F2090BDBE007D9FC7 /* ResourceTableViewCell.swift */,
+			);
+			path = ResourceView;
+			sourceTree = "<group>";
+		};
+		A2E6CE172090BFCC005E988C /* SelectedResource */ = {
+			isa = PBXGroup;
+			children = (
+				A2E6CE132090BFB0005E988C /* SelectedResourceTableViewController.swift */,
+				A2E6CE152090BFC0005E988C /* SelectedResource.storyboard */,
+				A2E6CE112090BF88005E988C /* SelectedResourceTableViewCell.swift */,
+			);
+			path = SelectedResource;
 			sourceTree = "<group>";
 		};
 		A2F9062A207D170B00AA9695 /* Quiz */ = {
@@ -406,7 +452,7 @@
 				TargetAttributes = {
 					164EF0FC203CF37E000B9C30 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					A25BD6312087BA9900C8F98B = {
 						CreatedOnToolsVersion = 9.3;
@@ -445,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C521222090BDD6007D9FC7 /* ResourceView.storyboard in Resources */,
 				16971427206A9B730056BDA0 /* Question7.storyboard in Resources */,
 				164EF10B203CF37E000B9C30 /* LaunchScreen.storyboard in Resources */,
 				16E02BD02055F76D00122249 /* Choices.storyboard in Resources */,
@@ -453,6 +500,7 @@
 				1697140F206A95D20056BDA0 /* Question3.storyboard in Resources */,
 				A26C53B12087C388002ACFC4 /* ResourceList.storyboard in Resources */,
 				16971423206A9B610056BDA0 /* Question5.storyboard in Resources */,
+				A2E6CE162090BFC0005E988C /* SelectedResource.storyboard in Resources */,
 				16971415206A97460056BDA0 /* Question4.storyboard in Resources */,
 				16971425206A9B6A0056BDA0 /* Question6.storyboard in Resources */,
 				164EF108203CF37E000B9C30 /* Assets.xcassets in Resources */,
@@ -580,19 +628,27 @@
 			files = (
 				164EF103203CF37E000B9C30 /* ViewController.swift in Sources */,
 				A26C53B52087C3B3002ACFC4 /* ResourceListTableViewCell.swift in Sources */,
+				A2E6CE122090BF88005E988C /* SelectedResourceTableViewCell.swift in Sources */,
 				1697141B206A995C0056BDA0 /* Quiz7ViewController.swift in Sources */,
 				A25BD62C2087B54D00C8F98B /* HomeViewController.swift in Sources */,
 				1697141D206A9A2F0056BDA0 /* Question5.swift in Sources */,
+				165CDC0020910F4F00CEFC89 /* BookViewController.swift in Sources */,
 				A25BD64B2087BD7D00C8F98B /* ApiHelper.swift in Sources */,
 				16971417206A993B0056BDA0 /* Quiz5ViewController.swift in Sources */,
+				A2E6CE192090C8BA005E988C /* ResourceListViewController.swift in Sources */,
 				16971413206A96E10056BDA0 /* Question4.swift in Sources */,
+				A2C521202090BDBE007D9FC7 /* ResourceTableViewCell.swift in Sources */,
 				1658F2D52064A6670090F9F6 /* QuizViewController.swift in Sources */,
 				16971409206A92E90056BDA0 /* Question2.swift in Sources */,
+				02AAD426209377F900C72EF3 /* DisplayResourceDetailViewController.swift in Sources */,
 				16971419206A994B0056BDA0 /* Quiz6ViewController.swift in Sources */,
 				1697141F206A9A370056BDA0 /* Question6.swift in Sources */,
 				A26C53B32087C39F002ACFC4 /* ResoureListTableViewController.swift in Sources */,
 				16971407206A92960056BDA0 /* Quiz2ViewController.swift in Sources */,
 				16971421206A9A500056BDA0 /* Question7.swift in Sources */,
+				02AAD4242092F8A700C72EF3 /* DisplayResourceTableCell.swift in Sources */,
+				02C421F92092AB2500B57786 /* DisplayResourceTableViewController.swift in Sources */,
+				A2E6CE142090BFB0005E988C /* SelectedResourceTableViewController.swift in Sources */,
 				16971411206A96AF0056BDA0 /* Quiz4ViewController.swift in Sources */,
 				1658F2D32064A4700090F9F6 /* Quiz.swift in Sources */,
 				A2F90630207D245F00AA9695 /* ResourceTableViewController.swift in Sources */,
@@ -770,9 +826,10 @@
 			baseConfigurationReference = D68F178283D30EBF154BF053 /* Pods-HymnDBFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LU4TXUMJT;
 				INFOPLIST_FILE = HymnDBFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HymnDBFinal;
@@ -788,9 +845,10 @@
 			baseConfigurationReference = 436C16023801A834F22B519A /* Pods-HymnDBFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LU4TXUMJT;
 				INFOPLIST_FILE = HymnDBFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.HymnDBFinal;

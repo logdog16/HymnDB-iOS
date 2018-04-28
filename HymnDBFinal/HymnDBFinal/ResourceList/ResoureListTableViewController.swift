@@ -17,20 +17,29 @@ import AlamofireImage
 class ResourceListTableViewController: UITableViewController {
     var resourceList:JSON = []
     @IBOutlet weak var home: UIButton!
+    
     var urls : NSArray = NSArray()
     var labelTitles : NSArray = ["Books", "Hymnals/Songbooks", "Thesis/Dissertation", "Articles", "Blogs",
                                  "Forum", "Newsletter/E-News", "Audio Tracks", "Podcast", "Video/Visuals",
                                  "Congregations", "Organizations", "Events", "Persons"]
     
-
+    
     
     var selectedRow = 0
+    
+    
+    //######  ####### ######  ######  ###  #####     #    ####### ####### ######
+    //#     # #       #     # #     #  #  #     #   # #      #    #       #     #
+    //#     # #       #     # #     #  #  #        #   #     #    #       #     #
+    //#     # #####   ######  ######   #  #       #     #    #    #####   #     #
+    //#     # #       #       #   #    #  #       #######    #    #       #     #
+    //#     # #       #       #    #   #  #     # #     #    #    #       #     #
+    //######  ####### #       #     # ###  #####  #     #    #    ####### ######
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Browse Resources"
-        
         resourceList = [
             ["resourceTitle": "Books",
              "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/books-education-school-literature-48126.jpg",
@@ -109,15 +118,19 @@ class ResourceListTableViewController: UITableViewController {
         
         //let resourceTitle = resourceList[indexPath.row]["resourceTitle"].string
         let cell = tableView.dequeueReusableCell(withIdentifier: "ResourceListCell", for: indexPath) as! ResourceListTableViewCell
-        cell.resourceLabel?.text = resourceList[indexPath.row]["resourceTitle"].string
-
-        if cell.backgroundView == nil{
+        //cell.resourceLabel?.text = resourceList[indexPath.row]["resourceTitle"].string
+        cell.resourceButton.setTitle(resourceList[indexPath.row]["resourceTitle"].string, for: [])
+        
+        if cell.resourceButton.backgroundImage(for: []) == nil{
+            
             Alamofire.request(resourceList[indexPath.row]["resourceImage"].string!, method: .get).responseImage { response in
                 guard let image = response.result.value else {
                     // Handle error
                     return
                 }
-                cell.backgroundView = UIImageView(image: image)
+                //cell.backgroundView = UIImageView(image: image)
+               // cell.resourceButton.imageView = UIImageView(image: image)
+                cell.resourceButton.setBackgroundImage(image, for: [])
             }
         }
         print(indexPath.row)
