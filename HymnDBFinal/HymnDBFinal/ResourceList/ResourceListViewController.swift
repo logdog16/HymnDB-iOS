@@ -18,7 +18,7 @@ import AlamofireImage
 class ResourceListViewController: UIViewController {
 
     var resourceList:JSON = []
-    
+    var catToPush:Int = 0
     
     @IBOutlet weak var cardView: AnimatableView!
 //    @IBOutlet weak var resourceImage: AnimatableImageView!
@@ -44,51 +44,61 @@ class ResourceListViewController: UIViewController {
     //Buttons over images
     @IBAction func booksButton(_ sender: Any)
     {
+        catToPush = 0
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func hymnalsButton(_ sender: Any)
     {
+        catToPush = 1
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func thesesButton(_ sender: Any)
     {
+        catToPush = 2
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func articlesButton(_ sender: Any)
     {
+        catToPush = 3
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func blogsButton(_ sender: Any)
     {
+        catToPush = 4
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func forumButton(_ sender: Any)
     {
+        catToPush = 5
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func newsletterButton(_ sender: Any)
     {
+        catToPush = 6
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func audioButton(_ sender: Any)
     {
+        catToPush = 7
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func podcastButton(_ sender: Any)
     {
+        catToPush = 8
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
     @IBAction func videosButton(_ sender: Any)
     {
+        catToPush = 9
         performSegue(withIdentifier: "showList", sender: nil)
     }
     
@@ -224,10 +234,8 @@ class ResourceListViewController: UIViewController {
             guard let listView = segue.destination as? DisplayResourceTableViewController else {
                 fatalError("Unexpected destination: \(segue.destination)")
             }
-            
-            
-            //let selectedResource = self.resourceList[indexPath.row]
-            listView.category = 0
+
+            listView.category = catToPush
             
         default: break
             
