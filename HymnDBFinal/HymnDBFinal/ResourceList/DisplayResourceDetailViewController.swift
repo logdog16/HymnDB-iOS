@@ -24,12 +24,12 @@ class DisplayResourceDetailViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+        print(toDisplay)
         titleLabel.text = toDisplay["title"].string
         authorLabel.text = toDisplay["author"].string
         descriptionBox.text = toDisplay["description"].string
-    
-        
+        let likesStr = String (toDisplay["likes"].int!)
+        likesLabel.text = "Likes: " + likesStr
         
     }
     @IBAction func likeButtonPressed(_ sender: Any)
