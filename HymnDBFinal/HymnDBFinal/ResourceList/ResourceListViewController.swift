@@ -146,12 +146,15 @@ class ResourceListViewController: UIViewController {
     
     
     func setResourceListPage(_ imgView: AnimatableImageView, _ imgID: Int) {
-            if imgView.image == nil{
-
-                    let image = UIImage(named: resourceList[imgID]["resourceImage"].string!)
-                    imgView.image = image
+        if imgView.image == nil{
+            Alamofire.request(resourceList[imgID]["resourceImage"].string!, method: .get).responseImage { response in
+                guard let image = response.result.value else {
+                    // Handle error
+                    return
                 }
-
+                imgView.image = image
+            }
+        }
     }
     
     
@@ -163,48 +166,50 @@ class ResourceListViewController: UIViewController {
         
         resourceList = [
             ["resourceTitle": "Books",
-             "resourceImage": "books-education-school-literature-48126.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/books-education-school-literature-48126.jpg",
              "resourceId": "1"],
             ["resourceTitle": "Hymnals/Songbooks",
-             "resourceImage": "open-book-library-education-read-159621.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/open-book-library-education-read-159621.jpg",
              "resourceId": "2"],
             ["resourceTitle": "Thesis/Dissertations",
-             "resourceImage": "pexels-photo-518543.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-518543.jpg",
              "resourceId": "3"],
             ["resourceTitle": "Articles",
-             "resourceImage": "pexels-photo-267569.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-267569.jpg",
              "resourceId": "4"],
             ["resourceTitle": "Blogs",
-             "resourceImage": "startup-photos.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/startup-photos.jpg",
              "resourceId": "5"],
             ["resourceTitle": "Forum",
-             "resourceImage": "pexels-photo-261706.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-261706.jpg",
              "resourceId": "6"],
             ["resourceTitle": "Newsletter/E-News",
-             "resourceImage": "microphone-audio-computer-sound-recording-55800.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/microphone-audio-computer-sound-recording-55800.jpg",
              "resourceId": "7"],
             ["resourceTitle": "Audio Tracks",
-             "resourceImage": "microphone-audio-computer-sound-recording-55800.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/microphone-audio-computer-sound-recording-55800.jpg",
              "resourceId": "8"],
             ["resourceTitle": "Podcasts",
-             "resourceImage": "pexels-photo-635005.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-635005.jpg",
              "resourceId": "9"],
             ["resourceTitle": "Videos/Visuals",
-             "resourceImage": "pexels-photo-66134.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-66134.jpg",
              "resourceId": "10"],
             ["resourceTitle": "Congregations",
-             "resourceImage": "pexels-photo-133699.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-133699.jpg",
              "resourceId": "11"],
             ["resourceTitle": "Organizations",
-             "resourceImage": "pexels-photo-296883.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-296883.jpg",
              "resourceId": "12"],
             ["resourceTitle": "Events",
-             "resourceImage": "people-eiffel-tower-lights-night.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/people-eiffel-tower-lights-night.jpg",
              "resourceId": "13"],
             ["resourceTitle": "Persons",
-             "resourceImage": "pexels-photo-296881.jpg",
+             "resourceImage": "https://s3-us-west-2.amazonaws.com/hymndbphotos/pexels-photo-296881.jpg",
              "resourceId": "14"]
         ]
+        
+        
         setResourceListPage(bookView, 0)
         setResourceListPage(hymnalsView, 1)
         setResourceListPage(thesesView, 2)
